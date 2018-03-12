@@ -168,24 +168,6 @@
     {
       "items": [
         {
-          "id": "imbued-guthix-max",
-          "img_path": "images/capes/imbued/Imbued_guthix_cape.png"
-        },
-        {
-          "id": "imbued-zamorak-max",
-          "img_path": "images/capes/imbued/Imbued_saradomin_cape.png"
-        },
-        {
-          "id": "imbued-sara-max",
-          "img_path": "images/capes/imbued/Imbued_zamorak_cape.png"
-        }
-      ],
-      "group_id": "imbued",
-      "type": "subgroup"
-    },
-    {
-      "items": [
-        {
           "id": "agility_cape_(t)",
           "img_path": "images/capes/achievement/Agility_cape_(t).png"
         },
@@ -292,6 +274,24 @@
     {
       "items": [
         {
+          "id": "imbued-guthix-max",
+          "img_path": "images/capes/imbued/Imbued_guthix_cape.png"
+        },
+        {
+          "id": "imbued-zamorak-max",
+          "img_path": "images/capes/imbued/Imbued_saradomin_cape.png"
+        },
+        {
+          "id": "imbued-sara-max",
+          "img_path": "images/capes/imbued/Imbued_zamorak_cape.png"
+        }
+      ],
+      "group_id": "imbued",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
           "id": "fire_cape",
           "img_path": "images/capes/combat/Fire_cape.png"
         },
@@ -302,30 +302,116 @@
       ],
       "group_id": "combat",
       "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "max_cape",
+          "img_path": "images/capes/max/Max_cape.png"
+        },
+        {
+          "id": "imbued_zamorak_max_cape",
+          "img_path": "images/capes/max/Imbued_zamorak_max_cape.png"
+        },
+        {
+          "id": "zamorak_max_cape",
+          "img_path": "images/capes/max/Zamorak_max_cape.png"
+        },
+        {
+          "id": "imbued_guthix_max_cape",
+          "img_path": "images/capes/max/Imbued_guthix_max_cape.png"
+        },
+        {
+          "id": "imbued_saradomin_max_cape",
+          "img_path": "images/capes/max/Imbued_saradomin_max_cape.png"
+        },
+        {
+          "id": "fire_max_cape",
+          "img_path": "images/capes/max/Fire_max_cape.png"
+        },
+        {
+          "id": "saradomin_max_cape",
+          "img_path": "images/capes/max/Saradomin_max_cape.png"
+        },
+        {
+          "id": "assembler_max_cape",
+          "img_path": "images/capes/max/Assembler_max_cape.png"
+        },
+        {
+          "id": "infernal_max_cape",
+          "img_path": "images/capes/max/Infernal_max_cape.png"
+        },
+        {
+          "id": "avas_max_cape",
+          "img_path": "images/capes/max/Ava's_max_cape.png"
+        }
+      ],
+      "group_id": "max",
+      "type": "subgroup"
     }
   ],
   "clues": [
     {
       "items": [
         {
+          "id": "3rd_age_mage_hat",
+          "img_path": "images/clues/3a/3rd_age_mage_hat.png"
+        },
+        {
+          "id": "3rd_age_robe_top",
+          "img_path": "images/clues/3a/3rd_age_robe_top.png"
+        },
+        {
+          "id": "3rd_age_robe",
+          "img_path": "images/clues/3a/3rd_age_robe.png"
+        },
+        {
           "id": "3rd_age_amulet",
           "img_path": "images/clues/3a/3rd_age_amulet.png"
         },
         {
-          "id": "3rd_age_axe",
-          "img_path": "images/clues/3a/3rd_age_axe.png"
-        },
-        {
-          "id": "3rd_age_bow",
-          "img_path": "images/clues/3a/3rd_age_bow.png"
+          "id": "3rd_age_wand",
+          "img_path": "images/clues/3a/3rd_age_wand.png"
         },
         {
           "id": "3rd_age_cloak",
           "img_path": "images/clues/3a/3rd_age_cloak.png"
         },
         {
+          "id": "3rd_age_range_coif",
+          "img_path": "images/clues/3a/3rd_age_range_coif.png"
+        },
+        {
+          "id": "3rd_age_range_top",
+          "img_path": "images/clues/3a/3rd_age_range_top.png"
+        },
+        {
+          "id": "3rd_age_range_legs",
+          "img_path": "images/clues/3a/3rd_age_range_legs.png"
+        },
+        {
+          "id": "3rd_age_vambraces",
+          "img_path": "images/clues/3a/3rd_age_vambraces.png"
+        },
+        {
+          "id": "3rd_age_bow",
+          "img_path": "images/clues/3a/3rd_age_bow.png"
+        },
+        {
+          "id": "3rd_age_axe",
+          "img_path": "images/clues/3a/3rd_age_axe.png"
+        },
+        {
           "id": "3rd_age_full_helmet",
           "img_path": "images/clues/3a/3rd_age_full_helmet.png"
+        },
+        {
+          "id": "3rd_age_platebody",
+          "img_path": "images/clues/3a/3rd_age_platebody.png"
+        },
+        {
+          "id": "3rd_age_platelegs",
+          "img_path": "images/clues/3a/3rd_age_platelegs.png"
         },
         {
           "id": "3rd_age_kiteshield",
@@ -336,74 +422,38 @@
           "img_path": "images/clues/3a/3rd_age_longsword.png"
         },
         {
-          "id": "3rd_age_mage_hat",
-          "img_path": "images/clues/3a/3rd_age_mage_hat.png"
-        },
-        {
           "id": "3rd_age_pickaxe",
           "img_path": "images/clues/3a/3rd_age_pickaxe.png"
-        },
-        {
-          "id": "3rd_age_platelegs",
-          "img_path": "images/clues/3a/3rd_age_platelegs.png"
-        },
-        {
-          "id": "3rd_age_range_coif",
-          "img_path": "images/clues/3a/3rd_age_range_coif.png"
-        },
-        {
-          "id": "3rd_age_range_legs",
-          "img_path": "images/clues/3a/3rd_age_range_legs.png"
-        },
-        {
-          "id": "3rd_age_range_top",
-          "img_path": "images/clues/3a/3rd_age_range_top.png"
-        },
-        {
-          "id": "3rd_age_robe",
-          "img_path": "images/clues/3a/3rd_age_robe.png"
-        },
-        {
-          "id": "3rd_age_robe_top",
-          "img_path": "images/clues/3a/3rd_age_robe_top.png"
-        },
-        {
-          "id": "3rd_age_vambraces",
-          "img_path": "images/clues/3a/3rd_age_vambraces.png"
-        },
-        {
-          "id": "3rd_age_wand",
-          "img_path": "images/clues/3a/3rd_age_wand.png"
         }
       ],
-      "group_id": "3a",
+      "group_id": "thirdage",
       "type": "subgroup"
     },
     {
       "items": [
         {
-          "id": "holy_sandals",
-          "img_path": "images/clues/gear/holy_sandals.png"
+          "id": "robin_hood_hat",
+          "img_path": "images/clues/gear/robin_hood_hat.png"
         },
         {
           "id": "ranger_boots",
           "img_path": "images/clues/gear/ranger_boots.png"
         },
         {
-          "id": "ranger_gloves",
-          "img_path": "images/clues/gear/ranger_gloves.png"
-        },
-        {
           "id": "rangers_tunic",
           "img_path": "images/clues/gear/rangers'_tunic.png"
         },
         {
-          "id": "robin_hood_hat",
-          "img_path": "images/clues/gear/robin_hood_hat.png"
-        },
-        {
           "id": "wizard_boots",
           "img_path": "images/clues/gear/wizard_boots.png"
+        },
+        {
+          "id": "ranger_gloves",
+          "img_path": "images/clues/gear/ranger_gloves.png"
+        },
+        {
+          "id": "holy_sandals",
+          "img_path": "images/clues/gear/holy_sandals.png"
         }
       ],
       "group_id": "gear",
@@ -412,24 +462,24 @@
     {
       "items": [
         {
-          "id": "uri",
-          "img_path": "images/clues/milestones/Uri_Transform_emote_icon.png"
-        },
-        {
-          "id": "clue_scroll",
-          "img_path": "images/clues/milestones/Clue_scroll.png"
+          "id": "large_spade",
+          "img_path": "images/clues/milestones/Large_spade.png"
         },
         {
           "id": "clueless_scroll",
           "img_path": "images/clues/milestones/Clueless_scroll.png"
         },
         {
+          "id": "uri",
+          "img_path": "images/clues/milestones/Uri_Transform_emote_icon.png"
+        },
+        {
           "id": "heavy_casket",
           "img_path": "images/clues/milestones/Heavy_casket.png"
         },
         {
-          "id": "large_spade",
-          "img_path": "images/clues/milestones/Large_spade.png"
+          "id": "clue_scroll",
+          "img_path": "images/clues/milestones/Clue_scroll.png"
         }
       ],
       "group_id": "milestones",
@@ -449,7 +499,7 @@
           "img_path": "images/collections/Rune_pouch.png"
         }
       ],
-      "group_id": "holders",
+      "group_id": "collections",
       "type": "supergroup"
     }
   ],
@@ -457,52 +507,52 @@
     {
       "items": [
         {
-          "id": "Ardougne_cloak",
-          "img_path": "images/diaries/Ardougne_cloak_1.png"
-        },
-        {
-          "id": "Desert_amulet",
-          "img_path": "images/diaries/Desert_amulet_1.png"
-        },
-        {
-          "id": "Explorer's_ring",
-          "img_path": "images/diaries/Explorer's_ring_1.png"
-        },
-        {
-          "id": "Falador_shield",
-          "img_path": "images/diaries/Falador_shield_1.png"
-        },
-        {
-          "id": "Fremennik_sea_boots",
-          "img_path": "images/diaries/Fremennik_sea_boots_1.png"
-        },
-        {
           "id": "Kandarin_headgear",
           "img_path": "images/diaries/Kandarin_headgear_1.png"
         },
         {
-          "id": "Karamja_gloves",
-          "img_path": "images/diaries/Karamja_gloves_1.png"
-        },
-        {
-          "id": "Morytania_legs",
-          "img_path": "images/diaries/Morytania_legs_1.png"
-        },
-        {
-          "id": "Varrock_armour",
-          "img_path": "images/diaries/Varrock_armour_1.png"
+          "id": "Ardougne_cloak",
+          "img_path": "images/diaries/Ardougne_cloak_1.png"
         },
         {
           "id": "Western_banner",
           "img_path": "images/diaries/Western_banner_1.png"
         },
         {
+          "id": "Desert_amulet",
+          "img_path": "images/diaries/Desert_amulet_1.png"
+        },
+        {
+          "id": "Varrock_armour",
+          "img_path": "images/diaries/Varrock_armour_1.png"
+        },
+        {
           "id": "Wilderness_sword",
           "img_path": "images/diaries/Wilderness_sword_1.png"
+        },
+        {
+          "id": "Falador_shield",
+          "img_path": "images/diaries/Falador_shield_1.png"
+        },
+        {
+          "id": "Explorer's_ring",
+          "img_path": "images/diaries/Explorer's_ring_1.png"
+        },
+        {
+          "id": "Morytania_legs",
+          "img_path": "images/diaries/Morytania_legs_1.png"
+        },
+        {
+          "id": "Fremennik_sea_boots",
+          "img_path": "images/diaries/Fremennik_sea_boots_1.png"
+        },
+        {
+          "id": "Karamja_gloves",
+          "img_path": "images/diaries/Karamja_gloves_1.png"
         }
       ],
-      "group_id": "GROUP_ID",
-      "type": "GROUP_TYPE"
+      "group_id": "diaries",
+      "type": "supergroup"
     }
   ],
   "dragon": [
@@ -653,16 +703,16 @@
           "img_path": "images/gwd/saradomin/Saradomin's_light.png"
         },
         {
+          "id": "staff_of_light",
+          "img_path": "images/gwd/saradomin/Staff_of_light.png"
+        },
+        {
           "id": "saradomin_godsword",
           "img_path": "images/gwd/saradomin/Saradomin_godsword.png"
         },
         {
           "id": "saradomin_sword",
           "img_path": "images/gwd/saradomin/Saradomin_sword.png"
-        },
-        {
-          "id": "staff_of_light",
-          "img_path": "images/gwd/saradomin/Staff_of_light.png"
         }
       ],
       "group_id": "saradomin",

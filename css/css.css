@@ -1,6 +1,318 @@
 /* Main CSS file */
 
-.small-icon {
-	margin-right: 5px;
-	margin-left: 5px;
+body {
+	height: 100%;
+	width: 100%;
+
+	background-image: url("../images/background/bg.png");
+	background-size:     100% 100%;
+	background-repeat:   no-repeat;
+}
+
+.toggle {
+	opacity: 0.45;
+}
+
+#main-content {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+/* BARROWS */
+#div-barrows {
+	display: inline-block;
+	width: 720px;
+}
+
+#div-barrows div {
+	display: inline-block;
+	width: 80px;
+	margin-right: 40px;
+}
+
+
+/* BOOKS */
+#div-books {
+	display: inline-block;
+	width: 120px;
+	margin-left: 20px; 
+}
+
+#div-books div {
+	display: inline-block;
+}
+
+/* CAPES */
+#div-capes {
+	display: block;
+	width: 100%;
+}
+
+#div-capes div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#achievement {
+	width: 520px;
+
+}
+
+#combat {
+	width: 40px;
+	margin-left: 20px; 
+}
+
+#imbued {
+	width: 80px;
+	margin-left: 20px;
+}
+
+#max {
+	width: 200px;
+	margin-left: 20px;
+}
+
+/* CLUES */
+#div-clues {
+	display: block;
+	width: 100%;
+}
+
+#thirdage {
+	display: inline-block;
+	width: 240px;
+}
+
+#gear {
+	display: inline-block;
+	width: 80px;
+	margin-left: 40px; 
+}
+
+#milestones {
+	display: inline-block;
+	width: 400px;
+
+	vertical-align: top;
+
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+#milestones img {
+	margin-left: 40px;
+}
+
+/* COLLECTIONS */
+#div-collections {
+	display: inline-block;
+	width: 40px;
+	vertical-align: top;
+	margin-left: 40px;
+}
+
+
+/* DIARIES */
+#div-diaries {
+	display: inline-block;
+}
+
+#div-diaries div {
+	margin-left: 40px; 
+	display: inline-block;
+	width: 160px;
+}
+
+/* DRAGON */
+#div-dragon {
+	display: inline-block;
+	width: 200px;
+}
+
+#div-dragon div {
+	display: inline-block;
+	width: 200px;
+}
+
+/* DROPS */
+#div-drops {
+	display: inline-block;
+	width: 80px;
+	vertical-align: top;
+	margin-left: 40px;
+}
+
+/* GWD */
+#div-gwd {
+	display: block;
+	width: 100%;
+}
+
+#div-gwd div {
+	display: inline-block;
+	width: 80px;
+	margin-right: 40px;
+}
+
+#saradomin {
+	width: 120px !important;
+}
+
+/* HEADS */
+#div-heads {
+	display: block;
+	width: 90%;
+}
+
+#div-heads div {
+	display: inline-block;
+	width: 300px;
+}
+
+/* JARS */
+#div-jars {
+	display: block;
+	width: 90%;
+}
+
+#div-jars div {
+	display: inline-block;
+	width: 300px;
+}
+
+/* JEWELLRY */
+#div-jewellry {
+	display: block;
+	width: 90%;
+}
+
+#div-jewellry div {
+	display: inline-block;
+	width: 300px;
+}
+
+/* MTA */
+#div-mta {
+	display: block;
+	width: 90%;
+}
+
+#div-mta div {
+	display: inline-block;
+	width: 300px;
+}
+
+/* OUTFITS */
+#div-outfits {
+	display: inline-block;
+	width: 95%;
+}
+
+#div-outfits div {
+	margin-right: 20px;
+}
+
+#graceful {
+	width: 120px;
+	display: inline-block;
+}
+
+#prospector {
+	width: 120px;
+	display: inline-block;
+}
+
+#farmer {
+	width: 120px;
+	display: inline-block;
+}
+
+#lumberjack {
+	width: 80px;
+	display: inline-block;
+}
+
+#pyromancer {
+	width: 120px;
+	display: inline-block;
+}
+
+#rogue {
+	width: 120px;
+	display: inline-block;
+}
+
+#void {
+	width: 200px;
+	display: inline-block;
+}
+
+#angler {
+	width: 80px;
+	display: inline-block;
+}
+
+#ba {
+	width: 160px;
+	display: inline-block;
+}
+
+/* PETS */
+#div-pets {
+	display: block;
+	width: 90%;
+}
+
+#div-pets div {
+	display: inline-block;
+	width: 300px;
+}
+
+/* PVM */
+#div-pvm {
+	display: block;
+	width: 90%;
+}
+
+#div-pvm div {
+	display: inline-block;
+	width: 300px;
+}
+
+/* RAIDS */
+#div-raids {
+	display: block;
+	width: 90%;
+}
+
+#div-raids div {
+	display: inline-block;
+	width: 300px;
+}
+
+/* SCROLLS */
+#div-scrolls {
+	display: block;
+	width: 90%;
+}
+
+#div-scrolls div {
+	display: inline-block;
+	width: 440px;
+}
+
+#imp_champion_scroll {
+	margin-left: 40px;
+}
+
+/* SKILLING */
+#div-skilling {
+	display: block;
+	width: 90%;
+}
+
+#div-skilling div {
+	display: inline-block;
+	width: 300px;
 }

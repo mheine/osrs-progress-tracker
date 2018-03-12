@@ -6,30 +6,32 @@ $("document").ready(function() {
 		var sections = Object.keys(itemdata);
 		console.log("We have " + sections.length + " sections to create.")
 
-		createSection(itemdata.barrows, "div-barrows")
-		createSection(itemdata.books, "div-books")
-		createSection(itemdata.capes, "div-capes")
-		createSection(itemdata.clues, "div-clues")
-		createSection(itemdata.collections, "div-collections")
-		createSection(itemdata.diaries, "div-diaries")
-		createSection(itemdata.dragon, "div-dragon")
-		createSection(itemdata.drops, "div-drops")
-		createSection(itemdata.gwd, "div-gwd")
-		createSection(itemdata.heads, "div-heads")
-		createSection(itemdata.jars, "div-jars")
-		createSection(itemdata.jewellry, "div-jewellry")
-		createSection(itemdata.mta, "div-mta")
-		createSection(itemdata.outfits, "div-outfits")
-		createSection(itemdata.pets, "div-pets")
-		createSection(itemdata.pvm, "div-pvm")
-		createSection(itemdata.raids, "div-raids")
-		createSection(itemdata.scrolls, "div-scrolls")
-		createSection(itemdata.skilling, "div-skilling")
+		createSection(itemdata.outfits, "div-outfits");
+		createSection(itemdata.barrows, "div-barrows");
+		createSection(itemdata.books, "div-books");
+		createSection(itemdata.capes, "div-capes");
+		createSection(itemdata.clues, "div-clues");
+		createSection(itemdata.dragon, "div-dragon");
+		createSection(itemdata.collections, "div-collections");
+		createSection(itemdata.diaries, "div-diaries");
+		createSection(itemdata.drops, "div-drops");
+		createSection(itemdata.gwd, "div-gwd");
+		createSection(itemdata.heads, "div-heads");
+		createSection(itemdata.jars, "div-jars");
+		createSection(itemdata.jewellry, "div-jewellry");
+		createSection(itemdata.mta, "div-mta");
+		createSection(itemdata.pets, "div-pets");
+		createSection(itemdata.pvm, "div-pvm");
+		createSection(itemdata.raids, "div-raids");
+		createSection(itemdata.scrolls, "div-scrolls");
+		createSection(itemdata.skilling, "div-skilling");
 
 
 		apply_toggle();
 
+		setImagePaddings();
 	});
+
 
 });
 
@@ -37,7 +39,7 @@ function createSection(data, divID) {
 	
 	$('#main-content').append(createDiv(divID));
 
-	for (var i = data.length - 1; i >= 0; i--) {
+	for (var i = 0; i <= data.length - 1; i++) {
 
 		var subgroup = data[i].items;
 
@@ -67,6 +69,21 @@ function createDiv(id_name) {
 	var div = document.createElement("div");
 	div.setAttribute('id', id_name);
 	return div;
+}
+
+function setImagePaddings() {
+
+	$( ".small-icon" ).each(function() {
+
+		var w = parseInt($(this).css("width"));
+		var h = parseInt($(this).css("height"));
+
+		var newPadding =  ((40 - h) / 2) + "px " + ((40 - w) / 2) + "px";
+
+		console.log("new padding is: " + newPadding)
+
+		$(this).css('padding', newPadding);
+	});
 }
 
 function apply_toggle() {
