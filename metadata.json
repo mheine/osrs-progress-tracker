@@ -4,19 +4,19 @@
       "items": [
         {
           "id": "ahrims-hood",
-          "img_path": "images/barrows/Ahrim/Ahrim's_hood.png"
+          "img_path": "images/barrows/ahrim/Ahrim's_hood.png"
         },
         {
           "id": "ahrims-skirt",
-          "img_path": "images/barrows/Ahrim/Ahrim's_robeskirt.png"
+          "img_path": "images/barrows/ahrim/Ahrim's_robeskirt.png"
         },
         {
           "id": "ahrims-top",
-          "img_path": "images/barrows/Ahrim/Ahrim's_robetop.png"
+          "img_path": "images/barrows/ahrim/Ahrim's_robetop.png"
         },
         {
           "id": "ahrims-staff",
-          "img_path": "images/barrows/Ahrim/Ahrim's_staff.png"
+          "img_path": "images/barrows/ahrim/Ahrim's_staff.png"
         }
       ],
       "group_id": "ahrim",
@@ -26,22 +26,110 @@
       "items": [
         {
           "id": "dharok's_platebody",
-          "img_path": "images/barrows/Dharok/Dharok's_platebody.png"
+          "img_path": "images/barrows/dharok/Dharok's_platebody.png"
         },
         {
           "id": "dharok's_helm",
-          "img_path": "images/barrows/Dharok/Dharok's_helm.png"
+          "img_path": "images/barrows/dharok/Dharok's_helm.png"
         },
         {
           "id": "dharok's_greataxe",
-          "img_path": "images/barrows/Dharok/Dharok's_greataxe.png"
+          "img_path": "images/barrows/dharok/Dharok's_greataxe.png"
         },
         {
           "id": "dharok's_platelegs",
-          "img_path": "images/barrows/Dharok/Dharok's_platelegs.png"
+          "img_path": "images/barrows/dharok/Dharok's_platelegs.png"
         }
       ],
       "group_id": "dharok",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "guthan's_chainskirt",
+          "img_path": "images/barrows/guthan/Guthan's_chainskirt.png"
+        },
+        {
+          "id": "guthan's_helm",
+          "img_path": "images/barrows/guthan/Guthan's_helm.png"
+        },
+        {
+          "id": "guthan's_platebody",
+          "img_path": "images/barrows/guthan/Guthan's_platebody.png"
+        },
+        {
+          "id": "guthan's_warspear",
+          "img_path": "images/barrows/guthan/Guthan's_warspear.png"
+        }
+      ],
+      "group_id": "guthan",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "karil's_coif",
+          "img_path": "images/barrows/karil/Karil's_coif.png"
+        },
+        {
+          "id": "karil's_crossbow",
+          "img_path": "images/barrows/karil/Karil's_crossbow.png"
+        },
+        {
+          "id": "karil's_leatherskirt",
+          "img_path": "images/barrows/karil/Karil's_leatherskirt.png"
+        },
+        {
+          "id": "karil's_leathertop",
+          "img_path": "images/barrows/karil/Karil's_leathertop.png"
+        }
+      ],
+      "group_id": "karil",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "torag's_hammers",
+          "img_path": "images/barrows/torag/Torag's_hammers.png"
+        },
+        {
+          "id": "torag's_helm",
+          "img_path": "images/barrows/torag/Torag's_helm.png"
+        },
+        {
+          "id": "torag's_platebody",
+          "img_path": "images/barrows/torag/Torag's_platebody.png"
+        },
+        {
+          "id": "torag's_platelegs",
+          "img_path": "images/barrows/torag/Torag's_platelegs.png"
+        }
+      ],
+      "group_id": "torag",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "verac's_brassard",
+          "img_path": "images/barrows/verac/Verac's_brassard.png"
+        },
+        {
+          "id": "verac's_flail",
+          "img_path": "images/barrows/verac/Verac's_flail.png"
+        },
+        {
+          "id": "verac's_helm",
+          "img_path": "images/barrows/verac/Verac's_helm.png"
+        },
+        {
+          "id": "verac's_plateskirt",
+          "img_path": "images/barrows/verac/Verac's_plateskirt.png"
+        }
+      ],
+      "group_id": "verac",
       "type": "subgroup"
     }
   ],
@@ -49,27 +137,27 @@
     {
       "items": [
         {
-          "id": "damaged_book_(guthix).png",
+          "id": "damaged_book_(guthix)",
           "img_path": "images/books/Damaged_book_(Guthix).png"
         },
         {
-          "id": "damaged_book_(bandos).png",
+          "id": "damaged_book_(bandos)",
           "img_path": "images/books/Damaged_book_(Bandos).png"
         },
         {
-          "id": "damaged_book_(zamorak).png",
+          "id": "damaged_book_(zamorak)",
           "img_path": "images/books/Damaged_book_(Zamorak).png"
         },
         {
-          "id": "damaged_book_(ancient).png",
+          "id": "damaged_book_(ancient)",
           "img_path": "images/books/Damaged_book_(Ancient).png"
         },
         {
-          "id": "damaged_book_(armadyl).png",
+          "id": "damaged_book_(armadyl)",
           "img_path": "images/books/Damaged_book_(Armadyl).png"
         },
         {
-          "id": "damaged_book_(saradomin).png",
+          "id": "damaged_book_(saradomin)",
           "img_path": "images/books/Damaged_book_(Saradomin).png"
         }
       ],
@@ -81,15 +169,15 @@
       "items": [
         {
           "id": "imbued-guthix-max",
-          "img_path": "images/capes/Imbued/Imbued_guthix_cape.png"
+          "img_path": "images/capes/imbued/Imbued_guthix_cape.png"
         },
         {
           "id": "imbued-zamorak-max",
-          "img_path": "images/capes/Imbued/Imbued_saradomin_cape.png"
+          "img_path": "images/capes/imbued/Imbued_saradomin_cape.png"
         },
         {
           "id": "imbued-sara-max",
-          "img_path": "images/capes/Imbued/Imbued_zamorak_cape.png"
+          "img_path": "images/capes/imbued/Imbued_zamorak_cape.png"
         }
       ],
       "group_id": "imbued",
@@ -98,16 +186,1519 @@
     {
       "items": [
         {
+          "id": "agility_cape_(t)",
+          "img_path": "images/capes/achievement/Agility_cape_(t).png"
+        },
+        {
+          "id": "attack_cape_(t)",
+          "img_path": "images/capes/achievement/Attack_cape_(t).png"
+        },
+        {
+          "id": "construct._cape_(t)",
+          "img_path": "images/capes/achievement/Construct._cape_(t).png"
+        },
+        {
+          "id": "cooking_cape_(t)",
+          "img_path": "images/capes/achievement/Cooking_cape_(t).png"
+        },
+        {
+          "id": "crafting_cape_(t)",
+          "img_path": "images/capes/achievement/Crafting_cape_(t).png"
+        },
+        {
+          "id": "defence_cape_(t)",
+          "img_path": "images/capes/achievement/Defence_cape_(t).png"
+        },
+        {
+          "id": "farming_cape_(t)",
+          "img_path": "images/capes/achievement/Farming_cape_(t).png"
+        },
+        {
+          "id": "firemaking_cape_(t)",
+          "img_path": "images/capes/achievement/Firemaking_cape_(t).png"
+        },
+        {
+          "id": "fishing_cape_(t)",
+          "img_path": "images/capes/achievement/Fishing_cape_(t).png"
+        },
+        {
+          "id": "fletching_cape_(t)",
+          "img_path": "images/capes/achievement/Fletching_cape_(t).png"
+        },
+        {
+          "id": "herblore_cape_(t)",
+          "img_path": "images/capes/achievement/Herblore_cape_(t).png"
+        },
+        {
+          "id": "hitpoints_cape_(t)",
+          "img_path": "images/capes/achievement/Hitpoints_cape_(t).png"
+        },
+        {
+          "id": "hunter_cape_(t)",
+          "img_path": "images/capes/achievement/Hunter_cape_(t).png"
+        },
+        {
+          "id": "magic_cape_(t)",
+          "img_path": "images/capes/achievement/Magic_cape_(t).png"
+        },
+        {
+          "id": "mining_cape_(t)",
+          "img_path": "images/capes/achievement/Mining_cape_(t).png"
+        },
+        {
+          "id": "music_cape_(t)",
+          "img_path": "images/capes/achievement/Music_cape_(t).png"
+        },
+        {
+          "id": "prayer_cape_(t)",
+          "img_path": "images/capes/achievement/Prayer_cape_(t).png"
+        },
+        {
+          "id": "quest_point_cape",
+          "img_path": "images/capes/achievement/Quest_point_cape.png"
+        },
+        {
+          "id": "ranging_cape_(t)",
+          "img_path": "images/capes/achievement/Ranging_cape_(t).png"
+        },
+        {
+          "id": "runecraft_cape_(t)",
+          "img_path": "images/capes/achievement/Runecraft_cape_(t).png"
+        },
+        {
+          "id": "slayer_cape_(t)",
+          "img_path": "images/capes/achievement/Slayer_cape_(t).png"
+        },
+        {
+          "id": "smithing_cape_(t)",
+          "img_path": "images/capes/achievement/Smithing_cape_(t).png"
+        },
+        {
+          "id": "strength_cape_(t)",
+          "img_path": "images/capes/achievement/Strength_cape_(t).png"
+        },
+        {
+          "id": "thieving_cape_(t)",
+          "img_path": "images/capes/achievement/Thieving_cape_(t).png"
+        },
+        {
+          "id": "woodcutting_cape_(t)",
+          "img_path": "images/capes/achievement/Woodcutting_cape_(t).png"
+        }
+      ],
+      "group_id": "achievement",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
           "id": "fire_cape",
-          "img_path": "images/capes/Combat/Fire_cape.png"
+          "img_path": "images/capes/combat/Fire_cape.png"
         },
         {
           "id": "infernal_cape",
-          "img_path": "images/capes/Combat/Infernal_cape.png"
+          "img_path": "images/capes/combat/Infernal_cape.png"
         }
       ],
       "group_id": "combat",
       "type": "subgroup"
+    }
+  ],
+  "clues": [
+    {
+      "items": [
+        {
+          "id": "3rd_age_amulet",
+          "img_path": "images/clues/3a/3rd_age_amulet.png"
+        },
+        {
+          "id": "3rd_age_axe",
+          "img_path": "images/clues/3a/3rd_age_axe.png"
+        },
+        {
+          "id": "3rd_age_bow",
+          "img_path": "images/clues/3a/3rd_age_bow.png"
+        },
+        {
+          "id": "3rd_age_cloak",
+          "img_path": "images/clues/3a/3rd_age_cloak.png"
+        },
+        {
+          "id": "3rd_age_full_helmet",
+          "img_path": "images/clues/3a/3rd_age_full_helmet.png"
+        },
+        {
+          "id": "3rd_age_kiteshield",
+          "img_path": "images/clues/3a/3rd_age_kiteshield.png"
+        },
+        {
+          "id": "3rd_age_longsword",
+          "img_path": "images/clues/3a/3rd_age_longsword.png"
+        },
+        {
+          "id": "3rd_age_mage_hat",
+          "img_path": "images/clues/3a/3rd_age_mage_hat.png"
+        },
+        {
+          "id": "3rd_age_pickaxe",
+          "img_path": "images/clues/3a/3rd_age_pickaxe.png"
+        },
+        {
+          "id": "3rd_age_platelegs",
+          "img_path": "images/clues/3a/3rd_age_platelegs.png"
+        },
+        {
+          "id": "3rd_age_range_coif",
+          "img_path": "images/clues/3a/3rd_age_range_coif.png"
+        },
+        {
+          "id": "3rd_age_range_legs",
+          "img_path": "images/clues/3a/3rd_age_range_legs.png"
+        },
+        {
+          "id": "3rd_age_range_top",
+          "img_path": "images/clues/3a/3rd_age_range_top.png"
+        },
+        {
+          "id": "3rd_age_robe",
+          "img_path": "images/clues/3a/3rd_age_robe.png"
+        },
+        {
+          "id": "3rd_age_robe_top",
+          "img_path": "images/clues/3a/3rd_age_robe_top.png"
+        },
+        {
+          "id": "3rd_age_vambraces",
+          "img_path": "images/clues/3a/3rd_age_vambraces.png"
+        },
+        {
+          "id": "3rd_age_wand",
+          "img_path": "images/clues/3a/3rd_age_wand.png"
+        }
+      ],
+      "group_id": "3a",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "holy_sandals",
+          "img_path": "images/clues/gear/holy_sandals.png"
+        },
+        {
+          "id": "ranger_boots",
+          "img_path": "images/clues/gear/ranger_boots.png"
+        },
+        {
+          "id": "ranger_gloves",
+          "img_path": "images/clues/gear/ranger_gloves.png"
+        },
+        {
+          "id": "rangers_tunic",
+          "img_path": "images/clues/gear/rangers'_tunic.png"
+        },
+        {
+          "id": "robin_hood_hat",
+          "img_path": "images/clues/gear/robin_hood_hat.png"
+        },
+        {
+          "id": "wizard_boots",
+          "img_path": "images/clues/gear/wizard_boots.png"
+        }
+      ],
+      "group_id": "gear",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "uri",
+          "img_path": "images/clues/milestones/Uri_Transform_emote_icon.png"
+        },
+        {
+          "id": "clue_scroll",
+          "img_path": "images/clues/milestones/Clue_scroll.png"
+        },
+        {
+          "id": "clueless_scroll",
+          "img_path": "images/clues/milestones/Clueless_scroll.png"
+        },
+        {
+          "id": "heavy_casket",
+          "img_path": "images/clues/milestones/Heavy_casket.png"
+        },
+        {
+          "id": "large_spade",
+          "img_path": "images/clues/milestones/Large_spade.png"
+        }
+      ],
+      "group_id": "milestones",
+      "type": "subgroup"
+    }
+
+  ],
+  "collections": [
+    {
+      "items": [
+        {
+          "id": "herb_sack",
+          "img_path": "images/collections/Herb_sack.png"
+        },
+        {
+          "id": "rune_pouch",
+          "img_path": "images/collections/Rune_pouch.png"
+        }
+      ],
+      "group_id": "holders",
+      "type": "supergroup"
+    }
+  ],
+  "diaries": [
+    {
+      "items": [
+        {
+          "id": "Ardougne_cloak",
+          "img_path": "images/diaries/Ardougne_cloak_1.png"
+        },
+        {
+          "id": "Desert_amulet",
+          "img_path": "images/diaries/Desert_amulet_1.png"
+        },
+        {
+          "id": "Explorer's_ring",
+          "img_path": "images/diaries/Explorer's_ring_1.png"
+        },
+        {
+          "id": "Falador_shield",
+          "img_path": "images/diaries/Falador_shield_1.png"
+        },
+        {
+          "id": "Fremennik_sea_boots",
+          "img_path": "images/diaries/Fremennik_sea_boots_1.png"
+        },
+        {
+          "id": "Kandarin_headgear",
+          "img_path": "images/diaries/Kandarin_headgear_1.png"
+        },
+        {
+          "id": "Karamja_gloves",
+          "img_path": "images/diaries/Karamja_gloves_1.png"
+        },
+        {
+          "id": "Morytania_legs",
+          "img_path": "images/diaries/Morytania_legs_1.png"
+        },
+        {
+          "id": "Varrock_armour",
+          "img_path": "images/diaries/Varrock_armour_1.png"
+        },
+        {
+          "id": "Western_banner",
+          "img_path": "images/diaries/Western_banner_1.png"
+        },
+        {
+          "id": "Wilderness_sword",
+          "img_path": "images/diaries/Wilderness_sword_1.png"
+        }
+      ],
+      "group_id": "GROUP_ID",
+      "type": "GROUP_TYPE"
+    }
+  ],
+  "dragon": [
+    {
+      "items": [
+        {
+          "id": "Dragon_2h_sword",
+          "img_path": "images/dragon/Dragon_2h_sword.png"
+        },
+        {
+          "id": "Dragon_battleaxe",
+          "img_path": "images/dragon/Dragon_battleaxe.png"
+        },
+        {
+          "id": "Dragon_boots",
+          "img_path": "images/dragon/Dragon_boots.png"
+        },
+        {
+          "id": "Dragon_chainbody",
+          "img_path": "images/dragon/Dragon_chainbody.png"
+        },
+        {
+          "id": "Dragon_defender",
+          "img_path": "images/dragon/Dragon_defender.png"
+        },
+        {
+          "id": "Dragon_full_helm",
+          "img_path": "images/dragon/Dragon_full_helm.png"
+        },
+        {
+          "id": "Dragon_kiteshield",
+          "img_path": "images/dragon/Dragon_kiteshield.png"
+        },
+        {
+          "id": "Dragon_med_helm",
+          "img_path": "images/dragon/Dragon_med_helm.png"
+        },
+        {
+          "id": "Dragon_platebody",
+          "img_path": "images/dragon/Dragon_platebody.png"
+        },
+        {
+          "id": "Dragon_platelegs",
+          "img_path": "images/dragon/Dragon_platelegs.png"
+        },
+        {
+          "id": "Dragon_plateskirt",
+          "img_path": "images/dragon/Dragon_plateskirt.png"
+        },
+        {
+          "id": "Dragon_spear",
+          "img_path": "images/dragon/Dragon_spear.png"
+        },
+        {
+          "id": "Dragon_sq_shield",
+          "img_path": "images/dragon/Dragon_sq_shield.png"
+        },
+        {
+          "id": "Dragon_warhammer",
+          "img_path": "images/dragon/Dragon_warhammer.png"
+        },
+        {
+          "id": "Dragonfire_shield",
+          "img_path": "images/dragon/Dragonfire_shield.png"
+        }
+      ],
+      "group_id": "dragon-items",
+      "type": "supergroup"
+    }
+  ],
+  "drops": [
+    {
+      "items": [
+        {
+          "id": "Curved_bone",
+          "img_path": "images/drops/Curved_bone.png"
+        },
+        {
+          "id": "Draconic_visage",
+          "img_path": "images/drops/Draconic_visage.png"
+        },
+        {
+          "id": "Heavy_ballista",
+          "img_path": "images/drops/Heavy_ballista.png"
+        },
+        {
+          "id": "Wyvern_visage",
+          "img_path": "images/drops/Wyvern_visage.png"
+        }
+      ],
+      "group_id": "item_drops",
+      "type": "supergroup"
+    }
+  ],
+  "gwd": [
+    {
+      "items": [
+        {
+          "id": "armadyl_chainskirt",
+          "img_path": "images/gwd/armadyl/Armadyl_chainskirt.png"
+        },
+        {
+          "id": "armadyl_chestplate",
+          "img_path": "images/gwd/armadyl/Armadyl_chestplate.png"
+        },
+        {
+          "id": "armadyl_godsword",
+          "img_path": "images/gwd/armadyl/Armadyl_godsword.png"
+        },
+        {
+          "id": "armadyl_helmet",
+          "img_path": "images/gwd/armadyl/Armadyl_helmet.png"
+        }
+      ],
+      "group_id": "armadyl",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "bandos_boots",
+          "img_path": "images/gwd/bandos/Bandos_boots.png"
+        },
+        {
+          "id": "bandos_chestplate",
+          "img_path": "images/gwd/bandos/Bandos_chestplate.png"
+        },
+        {
+          "id": "bandos_godsword",
+          "img_path": "images/gwd/bandos/Bandos_godsword.png"
+        },
+        {
+          "id": "bandos_tassets",
+          "img_path": "images/gwd/bandos/Bandos_tassets.png"
+        }
+      ],
+      "group_id": "bandos",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "armadyl_crossbow",
+          "img_path": "images/gwd/saradomin/Armadyl_crossbow.png"
+        },
+        {
+          "id": "saradomin's_light",
+          "img_path": "images/gwd/saradomin/Saradomin's_light.png"
+        },
+        {
+          "id": "saradomin_godsword",
+          "img_path": "images/gwd/saradomin/Saradomin_godsword.png"
+        },
+        {
+          "id": "saradomin_sword",
+          "img_path": "images/gwd/saradomin/Saradomin_sword.png"
+        },
+        {
+          "id": "staff_of_light",
+          "img_path": "images/gwd/saradomin/Staff_of_light.png"
+        }
+      ],
+      "group_id": "saradomin",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "staff_of_the_dead",
+          "img_path": "images/gwd/zamorak/Staff_of_the_dead.png"
+        },
+        {
+          "id": "steam_battlestaff",
+          "img_path": "images/gwd/zamorak/Steam_battlestaff.png"
+        },
+        {
+          "id": "zamorak_godsword",
+          "img_path": "images/gwd/zamorak/Zamorak_godsword.png"
+        },
+        {
+          "id": "zamorakian_spear",
+          "img_path": "images/gwd/zamorak/Zamorakian_spear.png"
+        }
+      ],
+      "group_id": "zamorak",
+      "type": "subgroup"
+    }
+  ],
+  "heads": [
+    {
+      "items": [
+        {
+          "id": "Abyssal_head",
+          "img_path": "images/heads/Abyssal_head.png"
+        },
+        {
+          "id": "Basilisk_head",
+          "img_path": "images/heads/Basilisk_head.png"
+        },
+        {
+          "id": "Cockatrice_head",
+          "img_path": "images/heads/Cockatrice_head.png"
+        },
+        {
+          "id": "Crawling_hand",
+          "img_path": "images/heads/Crawling_hand.png"
+        },
+        {
+          "id": "Dark_claw",
+          "img_path": "images/heads/Dark_claw.png"
+        },
+        {
+          "id": "Kbd_heads",
+          "img_path": "images/heads/Kbd_heads.png"
+        },
+        {
+          "id": "Kq_head",
+          "img_path": "images/heads/Kq_head.png"
+        },
+        {
+          "id": "Kurask_head",
+          "img_path": "images/heads/Kurask_head.png"
+        }
+      ],
+      "group_id": "droppable-heads",
+      "type": "supergroup"
+    }
+  ],
+  "jars": [
+    {
+      "items": [
+        {
+          "id": "jar_of_darkness",
+          "img_path": "images/jars/Jar_of_darkness.png"
+        },
+        {
+          "id": "jar_of_decay",
+          "img_path": "images/jars/Jar_of_decay.png"
+        },
+        {
+          "id": "jar_of_dirt",
+          "img_path": "images/jars/Jar_of_dirt.png"
+        },
+        {
+          "id": "jar_of_miasma",
+          "img_path": "images/jars/Jar_of_miasma.png"
+        },
+        {
+          "id": "jar_of_sand",
+          "img_path": "images/jars/Jar_of_sand.png"
+        },
+        {
+          "id": "jar_of_souls",
+          "img_path": "images/jars/Jar_of_souls.png"
+        },
+        {
+          "id": "jar_of_stone",
+          "img_path": "images/jars/Jar_of_stone.png"
+        },
+        {
+          "id": "jar_of_swamp",
+          "img_path": "images/jars/Jar_of_swamp.png"
+        }
+      ],
+      "group_id": "boss-jars",
+      "type": "supergroup"
+    }
+  ],
+  "jewellry": [
+    {
+      "items": [
+        {
+          "id": "amulet_of_torture",
+          "img_path": "images/jewellry/enchanted/Amulet_of_torture.png"
+        },
+        {
+          "id": "necklace_of_anguish",
+          "img_path": "images/jewellry/enchanted/Necklace_of_anguish_v1.png"
+        },
+        {
+          "id": "ring_of_suffering",
+          "img_path": "images/jewellry/enchanted/Ring_of_suffering.png"
+        },
+        {
+          "id": "tormented_bracelet",
+          "img_path": "images/jewellry/enchanted/Tormented_bracelet.png"
+        }
+      ],
+      "group_id": "enchantes",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "onyx_amulet",
+          "img_path": "images/jewellry/onyx/Onyx_amulet.png"
+        },
+        {
+          "id": "onyx_bracelet",
+          "img_path": "images/jewellry/onyx/Onyx_bracelet.png"
+        },
+        {
+          "id": "onyx_necklace",
+          "img_path": "images/jewellry/onyx/Onyx_necklace.png"
+        },
+        {
+          "id": "onyx_ring",
+          "img_path": "images/jewellry/onyx/Onyx_ring.png"
+        }
+      ],
+      "group_id": "onyx",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "zenyte_amulet",
+          "img_path": "images/jewellry/zenyte/Zenyte_amulet.png"
+        },
+        {
+          "id": "zenyte_bracelet",
+          "img_path": "images/jewellry/zenyte/Zenyte_bracelet.png"
+        },
+        {
+          "id": "zenyte_necklace",
+          "img_path": "images/jewellry/zenyte/Zenyte_necklace.png"
+        },
+        {
+          "id": "zenyte_ring",
+          "img_path": "images/jewellry/zenyte/Zenyte_ring.png"
+        }
+      ],
+      "group_id": "zenyte",
+      "type": "subgroup"
+    }
+  ],
+  "mta": [
+    {
+      "items": [
+        {
+          "id": "bones_to_peaches_icon",
+          "img_path": "images/mta/Bones_to_peaches_icon.png"
+        },
+        {
+          "id": "infinity_boots",
+          "img_path": "images/mta/Infinity_boots.png"
+        },
+        {
+          "id": "infinity_bottoms",
+          "img_path": "images/mta/Infinity_bottoms.png"
+        },
+        {
+          "id": "infinity_gloves",
+          "img_path": "images/mta/Infinity_gloves.png"
+        },
+        {
+          "id": "infinity_hat",
+          "img_path": "images/mta/Infinity_hat.png"
+        },
+        {
+          "id": "infinity_top",
+          "img_path": "images/mta/Infinity_top.png"
+        },
+        {
+          "id": "mages_book",
+          "img_path": "images/mta/Mage's_book.png"
+        },
+        {
+          "id": "master_wand",
+          "img_path": "images/mta/Master_wand.png"
+        }
+      ],
+      "group_id": "mta-items",
+      "type": "supergroup"
+    }
+  ],
+  "outfits": [
+    {
+      "items": [
+        {
+          "id": "angler_boots",
+          "img_path": "images/outfits/angler/Angler_boots.png"
+        },
+        {
+          "id": "angler_hat",
+          "img_path": "images/outfits/angler/Angler_hat.png"
+        },
+        {
+          "id": "angler_top",
+          "img_path": "images/outfits/angler/Angler_top.png"
+        },
+        {
+          "id": "angler_waders",
+          "img_path": "images/outfits/angler/Angler_waders.png"
+        }
+      ],
+      "group_id": "angler",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "fighter_hat",
+          "img_path": "images/outfits/ba/Fighter_hat.png"
+        },
+        {
+          "id": "fighter_torso",
+          "img_path": "images/outfits/ba/Fighter_torso.png"
+        },
+        {
+          "id": "healer_hat",
+          "img_path": "images/outfits/ba/Healer_hat.png"
+        },
+        {
+          "id": "penance_gloves",
+          "img_path": "images/outfits/ba/Penance_gloves.png"
+        },
+        {
+          "id": "penance_skirt",
+          "img_path": "images/outfits/ba/Penance_skirt.png"
+        },
+        {
+          "id": "ranger_hat",
+          "img_path": "images/outfits/ba/Ranger_hat.png"
+        },
+        {
+          "id": "runner_boots",
+          "img_path": "images/outfits/ba/Runner_boots.png"
+        },
+        {
+          "id": "runner_hat",
+          "img_path": "images/outfits/ba/Runner_hat.png"
+        }
+      ],
+      "group_id": "ba",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "farmer's_boots",
+          "img_path": "images/outfits/farmer/Farmer's_boots.png"
+        },
+        {
+          "id": "farmer's_boro_trousers",
+          "img_path": "images/outfits/farmer/Farmer's_boro_trousers.png"
+        },
+        {
+          "id": "farmer's_jacket",
+          "img_path": "images/outfits/farmer/Farmer's_jacket.png"
+        },
+        {
+          "id": "farmer's_strawhat",
+          "img_path": "images/outfits/farmer/Farmer's_strawhat.png"
+        },
+        {
+          "id": "gricoller's_can",
+          "img_path": "images/outfits/farmer/Gricoller's_can.png"
+        },
+        {
+          "id": "seed_box",
+          "img_path": "images/outfits/farmer/Seed_box.png"
+        }
+      ],
+      "group_id": "farmer",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "graceful_boots",
+          "img_path": "images/outfits/graceful/Graceful_boots.png"
+        },
+        {
+          "id": "graceful_cape",
+          "img_path": "images/outfits/graceful/Graceful_cape.png"
+        },
+        {
+          "id": "graceful_gloves",
+          "img_path": "images/outfits/graceful/Graceful_gloves.png"
+        },
+        {
+          "id": "graceful_hood",
+          "img_path": "images/outfits/graceful/Graceful_hood.png"
+        },
+        {
+          "id": "graceful_legs",
+          "img_path": "images/outfits/graceful/Graceful_legs.png"
+        },
+        {
+          "id": "graceful_top",
+          "img_path": "images/outfits/graceful/Graceful_top.png"
+        }
+      ],
+      "group_id": "graceful",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "lumberjack_boots",
+          "img_path": "images/outfits/lumberjack/Lumberjack_boots.png"
+        },
+        {
+          "id": "lumberjack_hat",
+          "img_path": "images/outfits/lumberjack/Lumberjack_hat.png"
+        },
+        {
+          "id": "lumberjack_legs",
+          "img_path": "images/outfits/lumberjack/Lumberjack_legs.png"
+        },
+        {
+          "id": "lumberjack_top",
+          "img_path": "images/outfits/lumberjack/Lumberjack_top.png"
+        }
+      ],
+      "group_id": "lumberjack",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "coal_bag",
+          "img_path": "images/outfits/prospector/Coal_bag.png"
+        },
+        {
+          "id": "gem_bag",
+          "img_path": "images/outfits/prospector/Gem_bag.png"
+        },
+        {
+          "id": "prospector_boots",
+          "img_path": "images/outfits/prospector/Prospector_boots.png"
+        },
+        {
+          "id": "prospector_helmet",
+          "img_path": "images/outfits/prospector/Prospector_helmet.png"
+        },
+        {
+          "id": "prospector_jacket",
+          "img_path": "images/outfits/prospector/Prospector_jacket.png"
+        },
+        {
+          "id": "prospector_legs",
+          "img_path": "images/outfits/prospector/Prospector_legs.png"
+        }
+      ],
+      "group_id": "prospector",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "pyromancer_boots",
+          "img_path": "images/outfits/pyromancer/Pyromancer_boots.png"
+        },
+        {
+          "id": "pyromancer_garb",
+          "img_path": "images/outfits/pyromancer/Pyromancer_garb.png"
+        },
+        {
+          "id": "pyromancer_hood",
+          "img_path": "images/outfits/pyromancer/Pyromancer_hood.png"
+        },
+        {
+          "id": "pyromancer_robe",
+          "img_path": "images/outfits/pyromancer/Pyromancer_robe.png"
+        },
+        {
+          "id": "warm_gloves",
+          "img_path": "images/outfits/pyromancer/Warm_gloves.png"
+        }
+      ],
+      "group_id": "pyromancer",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "rogue_boots",
+          "img_path": "images/outfits/rogue/Rogue_boots.png"
+        },
+        {
+          "id": "rogue_gloves",
+          "img_path": "images/outfits/rogue/Rogue_gloves.png"
+        },
+        {
+          "id": "rogue_kit",
+          "img_path": "images/outfits/rogue/Rogue_kit.png"
+        },
+        {
+          "id": "rogue_mask",
+          "img_path": "images/outfits/rogue/Rogue_mask.png"
+        },
+        {
+          "id": "rogue_top",
+          "img_path": "images/outfits/rogue/Rogue_top.png"
+        },
+        {
+          "id": "rogue_trousers",
+          "img_path": "images/outfits/rogue/Rogue_trousers.png"
+        }
+      ],
+      "group_id": "rogue",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "elite_void_robe",
+          "img_path": "images/outfits/void/Elite_void_robe_v2.png"
+        },
+        {
+          "id": "elite_void_top",
+          "img_path": "images/outfits/void/Elite_void_top_v2.png"
+        },
+        {
+          "id": "void_knight_gloves",
+          "img_path": "images/outfits/void/Void_knight_gloves.png"
+        },
+        {
+          "id": "void_knight_mace",
+          "img_path": "images/outfits/void/Void_knight_mace.png"
+        },
+        {
+          "id": "void_knight_robe",
+          "img_path": "images/outfits/void/Void_knight_robe.png"
+        },
+        {
+          "id": "void_knight_top",
+          "img_path": "images/outfits/void/Void_knight_top.png"
+        },
+        {
+          "id": "void_mage_helm",
+          "img_path": "images/outfits/void/Void_mage_helm.png"
+        },
+        {
+          "id": "void_melee_helm",
+          "img_path": "images/outfits/void/Void_melee_helm.png"
+        },
+        {
+          "id": "void_ranger_helm",
+          "img_path": "images/outfits/void/Void_ranger_helm.png"
+        }
+      ],
+      "group_id": "void",
+      "type": "subgroup"
+    }
+  ],
+  "pets": [
+    {
+      "items": [
+        {
+          "id": "abyssal_orphan",
+          "img_path": "images/pets/Abyssal_orphan.png"
+        },
+        {
+          "id": "baby_chinchompa_(grey)",
+          "img_path": "images/pets/Baby_chinchompa_(grey).png"
+        },
+        {
+          "id": "baby_mole",
+          "img_path": "images/pets/Baby_mole.png"
+        },
+        {
+          "id": "beaver",
+          "img_path": "images/pets/Beaver.png"
+        },
+        {
+          "id": "bloodhound",
+          "img_path": "images/pets/Bloodhound.png"
+        },
+        {
+          "id": "callisto_cub",
+          "img_path": "images/pets/Callisto_cub.png"
+        },
+        {
+          "id": "chompy_chick",
+          "img_path": "images/pets/Chompy_chick.png"
+        },
+        {
+          "id": "giant_squirrel",
+          "img_path": "images/pets/Giant_squirrel.png"
+        },
+        {
+          "id": "hellpuppy",
+          "img_path": "images/pets/Hellpuppy.png"
+        },
+        {
+          "id": "herbi",
+          "img_path": "images/pets/Herbi.png"
+        },
+        {
+          "id": "heron",
+          "img_path": "images/pets/Heron.png"
+        },
+        {
+          "id": "jal-nib-rek",
+          "img_path": "images/pets/Jal-nib-rek.png"
+        },
+        {
+          "id": "kalphite_princess",
+          "img_path": "images/pets/Kalphite_princess.png"
+        },
+        {
+          "id": "noon",
+          "img_path": "images/pets/Noon.png"
+        },
+        {
+          "id": "olmlet",
+          "img_path": "images/pets/Olmlet.png"
+        },
+        {
+          "id": "pet_chaos_elemental",
+          "img_path": "images/pets/Pet_chaos_elemental.png"
+        },
+        {
+          "id": "pet_corporeal_critter",
+          "img_path": "images/pets/Pet_corporeal_critter.png"
+        },
+        {
+          "id": "pet_dagannoth_prime",
+          "img_path": "images/pets/Pet_dagannoth_prime.png"
+        },
+        {
+          "id": "pet_dagannoth_rex",
+          "img_path": "images/pets/Pet_dagannoth_rex.png"
+        },
+        {
+          "id": "pet_dagannoth_supreme",
+          "img_path": "images/pets/Pet_dagannoth_supreme.png"
+        },
+        {
+          "id": "pet_dark_core",
+          "img_path": "images/pets/Pet_dark_core.png"
+        },
+        {
+          "id": "pet_general_graardor",
+          "img_path": "images/pets/Pet_general_graardor.png"
+        },
+        {
+          "id": "pet_k'ril_tsutsaroth",
+          "img_path": "images/pets/Pet_k'ril_tsutsaroth.png"
+        },
+        {
+          "id": "pet_kraken",
+          "img_path": "images/pets/Pet_kraken.png"
+        },
+        {
+          "id": "pet_kree'arra",
+          "img_path": "images/pets/Pet_kree'arra.png"
+        },
+        {
+          "id": "pet_penance_queen",
+          "img_path": "images/pets/Pet_penance_queen.png"
+        },
+        {
+          "id": "pet_smoke_devil",
+          "img_path": "images/pets/Pet_smoke_devil.png"
+        },
+        {
+          "id": "pet_snakeling",
+          "img_path": "images/pets/Pet_snakeling.png"
+        },
+        {
+          "id": "pet_zilyana",
+          "img_path": "images/pets/Pet_zilyana.png"
+        },
+        {
+          "id": "phoenix",
+          "img_path": "images/pets/Phoenix.png"
+        },
+        {
+          "id": "prince_black_dragon",
+          "img_path": "images/pets/Prince_black_dragon.png"
+        },
+        {
+          "id": "rift_guardian_(fire)",
+          "img_path": "images/pets/Rift_guardian_(fire).png"
+        },
+        {
+          "id": "rock_golem",
+          "img_path": "images/pets/Rock_golem.png"
+        },
+        {
+          "id": "rocky",
+          "img_path": "images/pets/Rocky.png"
+        },
+        {
+          "id": "scorpia's_offspring",
+          "img_path": "images/pets/Scorpia's_offspring.png"
+        },
+        {
+          "id": "skotos",
+          "img_path": "images/pets/Skotos.png"
+        },
+        {
+          "id": "tangleroot",
+          "img_path": "images/pets/Tangleroot.png"
+        },
+        {
+          "id": "tzrek-jad",
+          "img_path": "images/pets/Tzrek-jad.png"
+        },
+        {
+          "id": "tzrek-zuk",
+          "img_path": "images/pets/Tzrek-zuk.png"
+        },
+        {
+          "id": "venenatis_spiderling",
+          "img_path": "images/pets/Venenatis_spiderling.png"
+        },
+        {
+          "id": "vet'ion_jr.",
+          "img_path": "images/pets/Vet'ion_jr..png"
+        },
+        {
+          "id": "vorki",
+          "img_path": "images/pets/Vorki.png"
+        }
+      ],
+      "group_id": "all-pets",
+      "type": "supergroup"
+    }
+  ],
+  "pvm": [
+    {
+      "items": [
+        {
+          "id": "eternal_crystal",
+          "img_path": "images/pvm/cerberus/Eternal_crystal.png"
+        },
+        {
+          "id": "pegasian_crystal",
+          "img_path": "images/pvm/cerberus/Pegasian_crystal.png"
+        },
+        {
+          "id": "primordial_crystal",
+          "img_path": "images/pvm/cerberus/Primordial_crystal.png"
+        },
+        {
+          "id": "smouldering_stone",
+          "img_path": "images/pvm/cerberus/Smouldering_stone.png"
+        }
+      ],
+      "group_id": "cerberus",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "arcane_spirit_shield",
+          "img_path": "images/pvm/corp/Arcane_spirit_shield.png"
+        },
+        {
+          "id": "elysian_spirit_shield",
+          "img_path": "images/pvm/corp/Elysian_spirit_shield.png"
+        },
+        {
+          "id": "spectral_spirit_shield",
+          "img_path": "images/pvm/corp/Spectral_spirit_shield.png"
+        }
+      ],
+      "group_id": "corp",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "archers_ring_(i)",
+          "img_path": "images/pvm/dks/Archers_ring_(i).png"
+        },
+        {
+          "id": "berserker_ring_(i)",
+          "img_path": "images/pvm/dks/Berserker_ring_(i).png"
+        },
+        {
+          "id": "dragon_axe",
+          "img_path": "images/pvm/dks/Dragon_axe.png"
+        },
+        {
+          "id": "mystic_mud_staff",
+          "img_path": "images/pvm/dks/Mystic_mud_staff.png"
+        },
+        {
+          "id": "seercull",
+          "img_path": "images/pvm/dks/Seercull.png"
+        },
+        {
+          "id": "seers_ring_(i)",
+          "img_path": "images/pvm/dks/Seers_ring_(i).png"
+        },
+        {
+          "id": "warrior_ring_(i)",
+          "img_path": "images/pvm/dks/Warrior_ring_(i).png"
+        }
+      ],
+      "group_id": "dks",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "granite_gloves",
+          "img_path": "images/pvm/granite/Granite_gloves.png"
+        },
+        {
+          "id": "granite_hammer",
+          "img_path": "images/pvm/granite/Granite_hammer.png"
+        },
+        {
+          "id": "granite_legs",
+          "img_path": "images/pvm/granite/Granite_legs.png"
+        },
+        {
+          "id": "granite_longsword",
+          "img_path": "images/pvm/granite/Granite_longsword.png"
+        },
+        {
+          "id": "granite_ring",
+          "img_path": "images/pvm/granite/Granite_ring.png"
+        },
+        {
+          "id": "guardian_boots",
+          "img_path": "images/pvm/granite/Guardian_boots.png"
+        }
+      ],
+      "group_id": "granite",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "abyssal_bludgeon",
+          "img_path": "images/pvm/slayer/Abyssal_bludgeon.png"
+        },
+        {
+          "id": "abyssal_dagger",
+          "img_path": "images/pvm/slayer/Abyssal_dagger.png"
+        },
+        {
+          "id": "abyssal_whip",
+          "img_path": "images/pvm/slayer/Abyssal_whip.png"
+        },
+        {
+          "id": "black_slayer_helmet",
+          "img_path": "images/pvm/slayer/Black_slayer_helmet.png"
+        },
+        {
+          "id": "broad_bolts_5",
+          "img_path": "images/pvm/slayer/Broad_bolts_5.png"
+        },
+        {
+          "id": "dark_bow",
+          "img_path": "images/pvm/slayer/Dark_bow.png"
+        },
+        {
+          "id": "dust_battlestaff",
+          "img_path": "images/pvm/slayer/Dust_battlestaff.png"
+        },
+        {
+          "id": "green_slayer_helmet",
+          "img_path": "images/pvm/slayer/Green_slayer_helmet.png"
+        },
+        {
+          "id": "imbued_heart",
+          "img_path": "images/pvm/slayer/Imbued_heart.png"
+        },
+        {
+          "id": "mist_battlestaff",
+          "img_path": "images/pvm/slayer/Mist_battlestaff.png"
+        },
+        {
+          "id": "occult_necklace",
+          "img_path": "images/pvm/slayer/Occult_necklace.png"
+        },
+        {
+          "id": "purple_slayer_helmet",
+          "img_path": "images/pvm/slayer/Purple_slayer_helmet.png"
+        },
+        {
+          "id": "red_slayer_helmet",
+          "img_path": "images/pvm/slayer/Red_slayer_helmet.png"
+        },
+        {
+          "id": "slayer_helmet_(i)",
+          "img_path": "images/pvm/slayer/Slayer_helmet_(i).png"
+        },
+        {
+          "id": "slayer_ring",
+          "img_path": "images/pvm/slayer/Slayer_ring.png"
+        },
+        {
+          "id": "smoke_battlestaff",
+          "img_path": "images/pvm/slayer/Smoke_battlestaff.png"
+        },
+        {
+          "id": "trident_of_the_seas",
+          "img_path": "images/pvm/slayer/Trident_of_the_seas.png"
+        },
+        {
+          "id": "turquoise_slayer_helmet",
+          "img_path": "images/pvm/slayer/Turquoise_slayer_helmet.png"
+        }
+      ],
+      "group_id": "slayer",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "ancient_wyvern_shield_(uncharged)",
+          "img_path": "images/pvm/vorkath/Ancient_wyvern_shield_(uncharged).png"
+        },
+        {
+          "id": "dragonbone_necklace",
+          "img_path": "images/pvm/vorkath/Dragonbone_necklace.png"
+        },
+        {
+          "id": "dragonfire_ward",
+          "img_path": "images/pvm/vorkath/Dragonfire_ward.png"
+        }
+      ],
+      "group_id": "vorkath",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "dragon_pickaxe",
+          "img_path": "images/pvm/wilderness/Dragon_pickaxe.png"
+        },
+        {
+          "id": "malediction_ward",
+          "img_path": "images/pvm/wilderness/Malediction_ward.png"
+        },
+        {
+          "id": "odium_ward",
+          "img_path": "images/pvm/wilderness/Odium_ward.png"
+        },
+        {
+          "id": "ring_of_the_gods",
+          "img_path": "images/pvm/wilderness/Ring_of_the_gods.png"
+        },
+        {
+          "id": "treasonous_ring_(i)",
+          "img_path": "images/pvm/wilderness/Treasonous_ring_(i).png"
+        },
+        {
+          "id": "tyrannical_ring_(i)",
+          "img_path": "images/pvm/wilderness/Tyrannical_ring_(i).png"
+        }
+      ],
+      "group_id": "wilderness",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "magic_fang",
+          "img_path": "images/pvm/zulrah/Magic_fang.png"
+        },
+        {
+          "id": "magma_helm",
+          "img_path": "images/pvm/zulrah/Magma_helm.png"
+        },
+        {
+          "id": "serpentine_helm",
+          "img_path": "images/pvm/zulrah/Serpentine_helm.png"
+        },
+        {
+          "id": "tanzanite_fang",
+          "img_path": "images/pvm/zulrah/Tanzanite_fang.png"
+        },
+        {
+          "id": "tanzanite_helm",
+          "img_path": "images/pvm/zulrah/Tanzanite_helm.png"
+        },
+        {
+          "id": "uncut_onyx",
+          "img_path": "images/pvm/zulrah/Uncut_onyx.png"
+        }
+      ],
+      "group_id": "zulrah",
+      "type": "subgroup"
+    }
+  ],
+  "raids": [
+    {
+      "items": [
+        {
+          "id": "ancestral_hat",
+          "img_path": "images/raids/Ancestral_hat.png"
+        },
+        {
+          "id": "ancestral_robe_bottom",
+          "img_path": "images/raids/Ancestral_robe_bottom.png"
+        },
+        {
+          "id": "ancestral_robe_top",
+          "img_path": "images/raids/Ancestral_robe_top.png"
+        },
+        {
+          "id": "dragon_claws",
+          "img_path": "images/raids/Dragon_claws.png"
+        },
+        {
+          "id": "dragon_hunter_crossbow",
+          "img_path": "images/raids/Dragon_hunter_crossbow.png"
+        },
+        {
+          "id": "dragon_sword",
+          "img_path": "images/raids/Dragon_sword.png"
+        },
+        {
+          "id": "dragon_thrownaxe",
+          "img_path": "images/raids/Dragon_thrownaxe.png"
+        },
+        {
+          "id": "elder_maul",
+          "img_path": "images/raids/Elder_maul.png"
+        },
+        {
+          "id": "kodai_insignia",
+          "img_path": "images/raids/Kodai_insignia.png"
+        },
+        {
+          "id": "twisted_bow",
+          "img_path": "images/raids/Twisted_bow.png"
+        },
+        {
+          "id": "twisted_buckler",
+          "img_path": "images/raids/Twisted_buckler.png"
+        }
+      ],
+      "group_id": "raids-rewards",
+      "type": "supergroup"
+    }
+  ],
+  "scrolls": [
+    {
+      "items": [
+        {
+          "id": "earth_warrior_champion_scroll",
+          "img_path": "images/scrolls/Earth_warrior_champion_scroll.png"
+        },
+        {
+          "id": "ghoul_champion_scroll",
+          "img_path": "images/scrolls/Ghoul_champion_scroll.png"
+        },
+        {
+          "id": "giant_champion_scroll",
+          "img_path": "images/scrolls/Giant_champion_scroll.png"
+        },
+        {
+          "id": "goblin_champion_scroll",
+          "img_path": "images/scrolls/Goblin_champion_scroll.png"
+        },
+        {
+          "id": "hobgoblin_champion_scroll",
+          "img_path": "images/scrolls/Hobgoblin_champion_scroll.png"
+        },
+        {
+          "id": "imp_champion_scroll",
+          "img_path": "images/scrolls/Imp_champion_scroll.png"
+        },
+        {
+          "id": "jogre_champion_scroll",
+          "img_path": "images/scrolls/Jogre_champion_scroll.png"
+        },
+        {
+          "id": "lesser_demon_champion_scroll",
+          "img_path": "images/scrolls/Lesser_demon_champion_scroll.png"
+        },
+        {
+          "id": "skeleton_champion_scroll",
+          "img_path": "images/scrolls/Skeleton_champion_scroll.png"
+        },
+        {
+          "id": "zombie_champion_scroll",
+          "img_path": "images/scrolls/Zombie_champion_scroll.png"
+        }
+      ],
+      "group_id": "champion-scrolls",
+      "type": "supergroup"
+    }
+  ],
+  "skilling": [
+    {
+      "items": [
+        {
+          "id": "pharaoahs_sceptre",
+          "img_path": "images/skilling/Pharaoh's_sceptre.png"
+        }
+      ],
+      "group_id": "skilling-objects",
+      "type": "supergroup"
     }
   ]
 }

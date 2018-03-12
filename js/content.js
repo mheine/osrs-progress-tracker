@@ -1,13 +1,6 @@
 
 $("document").ready(function() {
-
-	$('#div-barrows').append(createDiv('ahrims'));
-	$('#ahrims').prepend(createToggleImage("ahrims-hood", "images/barrows/Ahrim/Ahrim\'s_hood.png"));
-	$('#ahrims').prepend(createToggleImage("ahrims-skirt", "images/barrows/Ahrim/Ahrim\'s_robeskirt.png"));
-	$('#ahrims').prepend(createToggleImage("ahrims-top", "images/barrows/Ahrim/Ahrim\'s_robetop.png"));
-	$('#ahrims').prepend(createToggleImage("ahrims-staff", "images/barrows/Ahrim/Ahrim\'s_staff.png"));
 	
-
 	$.getJSON( "metadata.json", function( itemdata ) {
 
 		var sections = Object.keys(itemdata);
@@ -16,6 +9,23 @@ $("document").ready(function() {
 		createSection(itemdata.barrows, "div-barrows")
 		createSection(itemdata.books, "div-books")
 		createSection(itemdata.capes, "div-capes")
+		createSection(itemdata.clues, "div-clues")
+		createSection(itemdata.collections, "div-collections")
+		createSection(itemdata.diaries, "div-diaries")
+		createSection(itemdata.dragon, "div-dragon")
+		createSection(itemdata.drops, "div-drops")
+		createSection(itemdata.gwd, "div-gwd")
+		createSection(itemdata.heads, "div-heads")
+		createSection(itemdata.jars, "div-jars")
+		createSection(itemdata.jewellry, "div-jewellry")
+		createSection(itemdata.mta, "div-mta")
+		createSection(itemdata.outfits, "div-outfits")
+		createSection(itemdata.pets, "div-pets")
+		createSection(itemdata.pvm, "div-pvm")
+		createSection(itemdata.raids, "div-raids")
+		createSection(itemdata.scrolls, "div-scrolls")
+		createSection(itemdata.skilling, "div-skilling")
+
 
 		apply_toggle();
 
@@ -45,10 +55,10 @@ function createSection(data, divID) {
 
 function createToggleImage(id_name, path) {
 	
-	var image = document.createElement("img");
-	image.setAttribute('class', 'toggle');
-	image.setAttribute('id', id_name);
-	image.src = path;
+	var image = $('<img />');
+	image.addClass("toggle small-icon");
+	image.attr('id', id_name);
+	image.attr('src', path);
 
 	return image;
 }

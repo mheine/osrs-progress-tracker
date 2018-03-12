@@ -1,4 +1,4 @@
-/* Main JS file*/
+/* Eventlistener base file*/
 
 var addEvent = function(object, type, callback) {
 	if (object == null || typeof(object) == 'undefined') return;
@@ -10,19 +10,3 @@ var addEvent = function(object, type, callback) {
 		object["on"+type] = callback;
 	}
 };
-
-$("document").ready(function() {
-	//apply_toggle();
-});
-
-function apply_toggle() {
-	$( ".toggle" ).click(function() {
-		var opacity = $( this ).css( "opacity" );
-		if (opacity === "1") {
-			$(this).css('opacity', '0.4');
-		} else {
-			$(this).css('opacity', '1');
-		}
-		console.log("Toggled from toggle.")
-	});
-}
