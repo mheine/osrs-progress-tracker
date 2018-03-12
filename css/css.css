@@ -3,10 +3,6 @@
 body {
 	height: 100%;
 	width: 100%;
-
-	background-image: url("../images/background/bg.png");
-	background-size:     100% 100%;
-	background-repeat:   no-repeat;
 }
 
 .toggle {
@@ -15,7 +11,25 @@ body {
 
 #main-content {
 	margin-top: 50px;
-	margin-left: 50px;
+	margin-left: 80px;
+
+	max-width: 1000px;
+
+	background-image: url("../images/background/bg.png");
+	background-size:     100% 100%;
+	background-repeat:   no-repeat;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10%;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+
+    width: 700px;
 }
 
 /* BARROWS */
@@ -45,7 +59,7 @@ body {
 /* CAPES */
 #div-capes {
 	display: block;
-	width: 100%;
+	width: 1000px;
 }
 
 #div-capes div {
@@ -109,7 +123,7 @@ body {
 	display: inline-block;
 	width: 40px;
 	vertical-align: top;
-	margin-left: 40px;
+	margin-left: 80px;
 }
 
 
@@ -140,13 +154,13 @@ body {
 	display: inline-block;
 	width: 80px;
 	vertical-align: top;
-	margin-left: 40px;
+	margin-left: 80px;
 }
 
 /* GWD */
 #div-gwd {
-	display: block;
-	width: 100%;
+	display: inline-block;
+	width: 520px;
 }
 
 #div-gwd div {
@@ -161,46 +175,41 @@ body {
 
 /* HEADS */
 #div-heads {
-	display: block;
-	width: 90%;
+	display: inline-block;
+	width: 160px;
 }
 
 #div-heads div {
 	display: inline-block;
-	width: 300px;
+	width: 160px;
 }
 
 /* JARS */
 #div-jars {
-	display: block;
-	width: 90%;
-}
-
-#div-jars div {
 	display: inline-block;
-	width: 300px;
+	width: 160px;
+	margin-left: 40px;
+	margin-right: 120px;
 }
 
 /* JEWELLRY */
 #div-jewellry {
-	display: block;
-	width: 90%;
+	display: inline-block;
+	width: 160px;
+	margin-left: 40px;
 }
 
 #div-jewellry div {
 	display: inline-block;
-	width: 300px;
+	width: 160px;
 }
 
 /* MTA */
 #div-mta {
-	display: block;
-	width: 90%;
-}
-
-#div-mta div {
 	display: inline-block;
-	width: 300px;
+	width: 160px;
+	margin-top: 40px;
+	vertical-align: top;
 }
 
 /* OUTFITS */
@@ -210,7 +219,7 @@ body {
 }
 
 #div-outfits div {
-	margin-right: 20px;
+	margin-right: 40px;
 }
 
 #graceful {
@@ -260,41 +269,88 @@ body {
 
 /* PETS */
 #div-pets {
-	display: block;
-	width: 90%;
+	display: inline-block;
+	width: 640px;
+	margin-left: 80px;
+	margin-top: 40px; 
 }
 
-#div-pets div {
-	display: inline-block;
-	width: 300px;
+#rock_golem {
+	margin-left: 120px;
 }
+
 
 /* PVM */
 #div-pvm {
-	display: block;
-	width: 90%;
+	width: 1000px;
 }
 
 #div-pvm div {
 	display: inline-block;
-	width: 300px;
+	vertical-align: top;
+	margin-right: 40px;
 }
+
+
+#cerberus {
+	width: 80px;
+}
+
+#corp {
+	width: 80px;
+}
+
+#dks {
+	width: 160px;
+}
+
+#granite {
+	width: 80px;
+}
+
+#slayer {
+	width: 240px;
+}
+
+#vorkath {
+	width: 40px;
+}
+
+#wilderness {
+	display: inline-block;
+	width: 280px;
+	margin-top: 40px;
+	margin-left: 120px;
+}
+
+#ring_of_the_gods {
+	margin-left: 40px;
+}
+
+#zulrah {
+	display: inline-block;
+	width: 280px;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+#magic_fang {
+	margin-left: 40px;
+}
+
 
 /* RAIDS */
 #div-raids {
 	display: block;
-	width: 90%;
-}
-
-#div-raids div {
-	display: inline-block;
-	width: 300px;
+	width: 1000px;
+	margin-left: 120px;
 }
 
 /* SCROLLS */
 #div-scrolls {
 	display: block;
 	width: 90%;
+	margin-left: 240px;
 }
 
 #div-scrolls div {
@@ -302,9 +358,6 @@ body {
 	width: 440px;
 }
 
-#imp_champion_scroll {
-	margin-left: 40px;
-}
 
 /* SKILLING */
 #div-skilling {
@@ -315,4 +368,17 @@ body {
 #div-skilling div {
 	display: inline-block;
 	width: 300px;
+}
+
+.noselect {
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	user-select: none; 
+}
+
+.default-hidden {
+	display: none
 }

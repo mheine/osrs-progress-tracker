@@ -497,6 +497,10 @@
         {
           "id": "rune_pouch",
           "img_path": "images/collections/Rune_pouch.png"
+        },
+        {
+          "id": "pharaoahs_sceptre",
+          "img_path": "images/skilling/Pharaoh's_sceptre.png"
         }
       ],
       "group_id": "collections",
@@ -631,6 +635,10 @@
           "img_path": "images/drops/Curved_bone.png"
         },
         {
+          "id": "long_bone",
+          "img_path": "images/drops/Long_bone.png"
+        },
+        {
           "id": "Draconic_visage",
           "img_path": "images/drops/Draconic_visage.png"
         },
@@ -641,6 +649,10 @@
         {
           "id": "Wyvern_visage",
           "img_path": "images/drops/Wyvern_visage.png"
+        },
+        {
+          "id": "ancient_wyvern_shield_(uncharged)",
+          "img_path": "images/pvm/vorkath/Ancient_wyvern_shield_(uncharged).png"
         }
       ],
       "group_id": "item_drops",
@@ -825,38 +837,16 @@
     {
       "items": [
         {
-          "id": "amulet_of_torture",
-          "img_path": "images/jewellry/enchanted/Amulet_of_torture.png"
-        },
-        {
-          "id": "necklace_of_anguish",
-          "img_path": "images/jewellry/enchanted/Necklace_of_anguish_v1.png"
-        },
-        {
-          "id": "ring_of_suffering",
-          "img_path": "images/jewellry/enchanted/Ring_of_suffering.png"
-        },
-        {
-          "id": "tormented_bracelet",
-          "img_path": "images/jewellry/enchanted/Tormented_bracelet.png"
-        }
-      ],
-      "group_id": "enchantes",
-      "type": "subgroup"
-    },
-    {
-      "items": [
-        {
           "id": "onyx_amulet",
           "img_path": "images/jewellry/onyx/Onyx_amulet.png"
         },
         {
-          "id": "onyx_bracelet",
-          "img_path": "images/jewellry/onyx/Onyx_bracelet.png"
-        },
-        {
           "id": "onyx_necklace",
           "img_path": "images/jewellry/onyx/Onyx_necklace.png"
+        },
+        {
+          "id": "onyx_bracelet",
+          "img_path": "images/jewellry/onyx/Onyx_bracelet.png"
         },
         {
           "id": "onyx_ring",
@@ -873,12 +863,12 @@
           "img_path": "images/jewellry/zenyte/Zenyte_amulet.png"
         },
         {
-          "id": "zenyte_bracelet",
-          "img_path": "images/jewellry/zenyte/Zenyte_bracelet.png"
-        },
-        {
           "id": "zenyte_necklace",
           "img_path": "images/jewellry/zenyte/Zenyte_necklace.png"
+        },
+        {
+          "id": "zenyte_bracelet",
+          "img_path": "images/jewellry/zenyte/Zenyte_bracelet.png"
         },
         {
           "id": "zenyte_ring",
@@ -886,6 +876,28 @@
         }
       ],
       "group_id": "zenyte",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "amulet_of_torture",
+          "img_path": "images/jewellry/enchanted/Amulet_of_torture.png"
+        },
+        {
+          "id": "necklace_of_anguish",
+          "img_path": "images/jewellry/enchanted/Necklace_of_anguish_v1.png"
+        },
+        {
+          "id": "tormented_bracelet",
+          "img_path": "images/jewellry/enchanted/Tormented_bracelet.png"
+        },
+        {
+          "id": "ring_of_suffering",
+          "img_path": "images/jewellry/enchanted/Ring_of_suffering.png"
+        }
+      ],
+      "group_id": "enchantes",
       "type": "subgroup"
     }
   ],
@@ -933,23 +945,31 @@
     {
       "items": [
         {
-          "id": "angler_boots",
-          "img_path": "images/outfits/angler/Angler_boots.png"
+          "id": "graceful_boots",
+          "img_path": "images/outfits/graceful/Graceful_boots.png"
         },
         {
-          "id": "angler_hat",
-          "img_path": "images/outfits/angler/Angler_hat.png"
+          "id": "graceful_cape",
+          "img_path": "images/outfits/graceful/Graceful_cape.png"
         },
         {
-          "id": "angler_top",
-          "img_path": "images/outfits/angler/Angler_top.png"
+          "id": "graceful_gloves",
+          "img_path": "images/outfits/graceful/Graceful_gloves.png"
         },
         {
-          "id": "angler_waders",
-          "img_path": "images/outfits/angler/Angler_waders.png"
+          "id": "graceful_hood",
+          "img_path": "images/outfits/graceful/Graceful_hood.png"
+        },
+        {
+          "id": "graceful_legs",
+          "img_path": "images/outfits/graceful/Graceful_legs.png"
+        },
+        {
+          "id": "graceful_top",
+          "img_path": "images/outfits/graceful/Graceful_top.png"
         }
       ],
-      "group_id": "angler",
+      "group_id": "graceful",
       "type": "subgroup"
     },
     {
@@ -993,6 +1013,28 @@
     {
       "items": [
         {
+          "id": "angler_boots",
+          "img_path": "images/outfits/angler/Angler_boots.png"
+        },
+        {
+          "id": "angler_hat",
+          "img_path": "images/outfits/angler/Angler_hat.png"
+        },
+        {
+          "id": "angler_top",
+          "img_path": "images/outfits/angler/Angler_top.png"
+        },
+        {
+          "id": "angler_waders",
+          "img_path": "images/outfits/angler/Angler_waders.png"
+        }
+      ],
+      "group_id": "angler",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
           "id": "farmer's_boots",
           "img_path": "images/outfits/farmer/Farmer's_boots.png"
         },
@@ -1018,36 +1060,6 @@
         }
       ],
       "group_id": "farmer",
-      "type": "subgroup"
-    },
-    {
-      "items": [
-        {
-          "id": "graceful_boots",
-          "img_path": "images/outfits/graceful/Graceful_boots.png"
-        },
-        {
-          "id": "graceful_cape",
-          "img_path": "images/outfits/graceful/Graceful_cape.png"
-        },
-        {
-          "id": "graceful_gloves",
-          "img_path": "images/outfits/graceful/Graceful_gloves.png"
-        },
-        {
-          "id": "graceful_hood",
-          "img_path": "images/outfits/graceful/Graceful_hood.png"
-        },
-        {
-          "id": "graceful_legs",
-          "img_path": "images/outfits/graceful/Graceful_legs.png"
-        },
-        {
-          "id": "graceful_top",
-          "img_path": "images/outfits/graceful/Graceful_top.png"
-        }
-      ],
-      "group_id": "graceful",
       "type": "subgroup"
     },
     {
@@ -1563,12 +1575,12 @@
     {
       "items": [
         {
-          "id": "ancient_wyvern_shield_(uncharged)",
-          "img_path": "images/pvm/vorkath/Ancient_wyvern_shield_(uncharged).png"
-        },
-        {
           "id": "dragonbone_necklace",
           "img_path": "images/pvm/vorkath/Dragonbone_necklace.png"
+        },
+        {
+          "id": "skeletal_visage",
+          "img_path": "images/pvm/vorkath/Skeletal_visage.png"
         },
         {
           "id": "dragonfire_ward",
@@ -1611,24 +1623,24 @@
     {
       "items": [
         {
-          "id": "magic_fang",
-          "img_path": "images/pvm/zulrah/Magic_fang.png"
+          "id": "serpentine_helm",
+          "img_path": "images/pvm/zulrah/Serpentine_helm.png"
+        },
+        {
+          "id": "tanzanite_helm",
+          "img_path": "images/pvm/zulrah/Tanzanite_helm.png"
         },
         {
           "id": "magma_helm",
           "img_path": "images/pvm/zulrah/Magma_helm.png"
         },
         {
-          "id": "serpentine_helm",
-          "img_path": "images/pvm/zulrah/Serpentine_helm.png"
+          "id": "magic_fang",
+          "img_path": "images/pvm/zulrah/Magic_fang.png"
         },
         {
           "id": "tanzanite_fang",
           "img_path": "images/pvm/zulrah/Tanzanite_fang.png"
-        },
-        {
-          "id": "tanzanite_helm",
-          "img_path": "images/pvm/zulrah/Tanzanite_helm.png"
         },
         {
           "id": "uncut_onyx",
@@ -1655,8 +1667,28 @@
           "img_path": "images/raids/Ancestral_robe_top.png"
         },
         {
+          "id": "arcane_prayer_scroll",
+          "img_path": "images/raids/Arcane_prayer_scroll.png"
+        },
+        {
+          "id": "dexterous_prayer_scroll",
+          "img_path": "images/raids/Dexterous_prayer_scroll.png"
+        },
+        {
+          "id": "torn_prayer_scroll",
+          "img_path": "images/raids/Torn_prayer_scroll.png"
+        },
+        {
+          "id": "Dinh's_bulwark",
+          "img_path": "images/raids/Dinh's_bulwark.png"
+        },
+        {
           "id": "dragon_claws",
           "img_path": "images/raids/Dragon_claws.png"
+        },
+        {
+          "id": "dragon_harpoon",
+          "img_path": "images/raids/Dragon_harpoon.png"
         },
         {
           "id": "dragon_hunter_crossbow",
@@ -1679,13 +1711,14 @@
           "img_path": "images/raids/Kodai_insignia.png"
         },
         {
-          "id": "twisted_bow",
-          "img_path": "images/raids/Twisted_bow.png"
-        },
-        {
           "id": "twisted_buckler",
           "img_path": "images/raids/Twisted_buckler.png"
+        },
+        {
+          "id": "twisted_bow",
+          "img_path": "images/raids/Twisted_bow.png"
         }
+
       ],
       "group_id": "raids-rewards",
       "type": "supergroup"
@@ -1742,10 +1775,6 @@
   "skilling": [
     {
       "items": [
-        {
-          "id": "pharaoahs_sceptre",
-          "img_path": "images/skilling/Pharaoh's_sceptre.png"
-        }
       ],
       "group_id": "skilling-objects",
       "type": "supergroup"
