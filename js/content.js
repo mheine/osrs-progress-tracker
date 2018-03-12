@@ -1,8 +1,14 @@
 var globalToggle = 0;
 
+$(window).on("load", function() {
+	//setImagePaddings();
+
+	$("#loading-screen").css("display", "none");
+});
+
 
 $("document").ready(function() {
-	
+
 	$.getJSON( "metadata.json", function( itemdata ) {
 
 		var sections = Object.keys(itemdata);
@@ -32,13 +38,10 @@ $("document").ready(function() {
 
 		createDividers();
 
-
-		apply_toggle();
-
-		$( "#toggle-all-button" ).click(toggleAll);
 		$( "#export-image-button" ).click(exportImage);
 
-		setImagePaddings();
+		$( "#toggle-all-button" ).click(toggleAll);
+		apply_toggle();
 	});
 
 
@@ -59,26 +62,23 @@ function createHiddenDiaryImages(data) {
 				image.attr('src', path);
 				$('#main-content').append(image);
 
-				console.log("Adding: " + path)
 			}
-			
+
 		}
 
-		
+
 
 	}
 }
 
 function exportImage() {
-	console.log("Attempting to export image");
 	html2canvas(document.querySelector("#main-content")).then(canvas => {
-		ReImg.fromCanvas(canvas).downloadPng("osrs-progress")
+		console.log("Attempting to export image");
+		ReImg.fromCanvas(canvas).downloadPng()
 	});
 }
 
 function createDividers() {
-	var hr = $('<hr />');
-
 	$("#div-outfits").append('<hr />');
 	$("#div-capes").prepend('<hr />');
 	$("#div-clues").prepend('<hr />');
@@ -90,7 +90,7 @@ function createDividers() {
 }
 
 function createSection(data, divID) {
-	
+
 	$('#main-content').append(createDiv(divID));
 
 	for (var i = 0; i <= data.length - 1; i++) {
@@ -108,7 +108,7 @@ function createSection(data, divID) {
 }
 
 function createToggleImage(id_name, path) {
-	
+
 	var image = $('<img />');
 	var mouseover = capitalize(id_name.replace(/_/g, " "));
 	image.addClass("toggle small-icon noselect");
@@ -134,7 +134,15 @@ function setImagePaddings() {
 
 		var newPadding =  ((40 - h) / 2) + "px " + ((40 - w) / 2) + "px";
 
-		$(this).css('padding', newPadding);
+		var wPad = ((40 - w) / 2) + "px"
+		var hPad = ((40 - h) / 2) + "px";
+
+		//$(this).css('paddingLeft', wPad);
+		//$(this).css('paddingRight', wPad);
+		//$(this).css('paddingTop', hPad);
+		//$(this).css('paddingBottom', hPad);
+
+		//$(this).css('padding', newPadding);
 	});
 }
 
@@ -152,8 +160,8 @@ function toggleAll() {
 		$(".toggle").css('opacity', '0.4');
 		globalToggle--;
 	}
-	
-	
+
+
 }
 
 function apply_toggle() {
@@ -163,8 +171,6 @@ function apply_toggle() {
 			var path = $(this).attr("src");
 
 			var number = parseInt(path.slice(-5).charAt(0));
-
-			console.log("Number: " + number)
 
 			if($(this).css('opacity') != 1) {
 				$(this).css('opacity', '1');
@@ -196,7 +202,6 @@ function apply_toggle() {
 			var h = parseInt($(loadedImg).css("height"));
 
 			var newPadding =  ((40 - h) / 2) + "px " + ((40 - w) / 2) + "px";
-			console.log("Setting new padding: " + newPadding);
 			$(this).css('padding', newPadding);
 
 		}
