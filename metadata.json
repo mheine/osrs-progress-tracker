@@ -1,0 +1,113 @@
+{
+  "barrows": [
+    {
+      "items": [
+        {
+          "id": "ahrims-hood",
+          "img_path": "images/barrows/Ahrim/Ahrim's_hood.png"
+        },
+        {
+          "id": "ahrims-skirt",
+          "img_path": "images/barrows/Ahrim/Ahrim's_robeskirt.png"
+        },
+        {
+          "id": "ahrims-top",
+          "img_path": "images/barrows/Ahrim/Ahrim's_robetop.png"
+        },
+        {
+          "id": "ahrims-staff",
+          "img_path": "images/barrows/Ahrim/Ahrim's_staff.png"
+        }
+      ],
+      "group_id": "ahrim",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "dharok's_platebody",
+          "img_path": "images/barrows/Dharok/Dharok's_platebody.png"
+        },
+        {
+          "id": "dharok's_helm",
+          "img_path": "images/barrows/Dharok/Dharok's_helm.png"
+        },
+        {
+          "id": "dharok's_greataxe",
+          "img_path": "images/barrows/Dharok/Dharok's_greataxe.png"
+        },
+        {
+          "id": "dharok's_platelegs",
+          "img_path": "images/barrows/Dharok/Dharok's_platelegs.png"
+        }
+      ],
+      "group_id": "dharok",
+      "type": "subgroup"
+    }
+  ],
+  "books": [
+    {
+      "items": [
+        {
+          "id": "damaged_book_(guthix).png",
+          "img_path": "images/books/Damaged_book_(Guthix).png"
+        },
+        {
+          "id": "damaged_book_(bandos).png",
+          "img_path": "images/books/Damaged_book_(Bandos).png"
+        },
+        {
+          "id": "damaged_book_(zamorak).png",
+          "img_path": "images/books/Damaged_book_(Zamorak).png"
+        },
+        {
+          "id": "damaged_book_(ancient).png",
+          "img_path": "images/books/Damaged_book_(Ancient).png"
+        },
+        {
+          "id": "damaged_book_(armadyl).png",
+          "img_path": "images/books/Damaged_book_(Armadyl).png"
+        },
+        {
+          "id": "damaged_book_(saradomin).png",
+          "img_path": "images/books/Damaged_book_(Saradomin).png"
+        }
+      ],
+      "group_id": "prayer-books"
+    }
+  ],
+  "capes": [
+    {
+      "items": [
+        {
+          "id": "imbued-guthix-max",
+          "img_path": "images/capes/Imbued/Imbued_guthix_cape.png"
+        },
+        {
+          "id": "imbued-zamorak-max",
+          "img_path": "images/capes/Imbued/Imbued_saradomin_cape.png"
+        },
+        {
+          "id": "imbued-sara-max",
+          "img_path": "images/capes/Imbued/Imbued_zamorak_cape.png"
+        }
+      ],
+      "group_id": "imbued",
+      "type": "subgroup"
+    },
+    {
+      "items": [
+        {
+          "id": "fire_cape",
+          "img_path": "images/capes/Combat/Fire_cape.png"
+        },
+        {
+          "id": "infernal_cape",
+          "img_path": "images/capes/Combat/Infernal_cape.png"
+        }
+      ],
+      "group_id": "combat",
+      "type": "subgroup"
+    }
+  ]
+}
