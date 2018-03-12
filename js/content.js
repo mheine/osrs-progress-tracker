@@ -1,3 +1,5 @@
+var globalToggle = 0;
+
 
 $("document").ready(function() {
 	
@@ -13,12 +15,12 @@ $("document").ready(function() {
 		createSection(itemdata.clues, "div-clues");
 		createSection(itemdata.dragon, "div-dragon");
 		createSection(itemdata.collections, "div-collections");
-		createSection(itemdata.diaries, "div-diaries");
 		createSection(itemdata.drops, "div-drops");
+		createSection(itemdata.jewellry, "div-jewellry");
+		createSection(itemdata.diaries, "div-diaries");
 		createSection(itemdata.gwd, "div-gwd");
 		createSection(itemdata.heads, "div-heads");
 		createSection(itemdata.jars, "div-jars");
-		createSection(itemdata.jewellry, "div-jewellry");
 		createSection(itemdata.mta, "div-mta");
 		createSection(itemdata.pets, "div-pets");
 		createSection(itemdata.pvm, "div-pvm");
@@ -26,14 +28,66 @@ $("document").ready(function() {
 		createSection(itemdata.scrolls, "div-scrolls");
 		createSection(itemdata.skilling, "div-skilling");
 
+		createHiddenDiaryImages(itemdata.diaries);
+
+		createDividers();
+
 
 		apply_toggle();
+
+		$( "#toggle-all-button" ).click(toggleAll);
+		$( "#export-image-button" ).click(exportImage);
 
 		setImagePaddings();
 	});
 
 
 });
+
+function createHiddenDiaryImages(data) {
+	for (var i = 0; i <= data.length - 1; i++) {
+
+		var subgroup = data[i].items;
+
+		for (var j = subgroup.length - 1; j >= 0; j--) {
+
+			for (var k = 1; k <= 4; k++) {
+				var image = $('<img />');
+				var path = subgroup[j].img_path.replace("1", k);
+				image.addClass("default-hidden");
+				image.attr('id', subgroup[j].id + "_" + k);
+				image.attr('src', path);
+				$('#main-content').append(image);
+
+				console.log("Adding: " + path)
+			}
+			
+		}
+
+		
+
+	}
+}
+
+function exportImage() {
+	console.log("Attempting to export image");
+	html2canvas(document.querySelector("#main-content")).then(canvas => {
+		ReImg.fromCanvas(canvas).downloadPng("osrs-progress")
+	});
+}
+
+function createDividers() {
+	var hr = $('<hr />');
+
+	$("#div-outfits").append('<hr />');
+	$("#div-capes").prepend('<hr />');
+	$("#div-clues").prepend('<hr />');
+	$("#div-clues").append('<hr />');
+	$("#div-gwd").prepend('<hr />');
+	$("#div-pvm").prepend('<hr />');
+	$("#div-pvm").append('<hr />');
+
+}
 
 function createSection(data, divID) {
 	
@@ -43,9 +97,7 @@ function createSection(data, divID) {
 
 		var subgroup = data[i].items;
 
-		console.log("This group is " + divID + " and the subgroup is " + data[i].group_id)
 		$('#' + divID).append(createDiv(data[i].group_id));
-
 
 		for (var j = subgroup.length - 1; j >= 0; j--) {
 			$('#' + data[i].group_id).prepend(createToggleImage(subgroup[j].id, subgroup[j].img_path));
@@ -58,8 +110,10 @@ function createSection(data, divID) {
 function createToggleImage(id_name, path) {
 	
 	var image = $('<img />');
-	image.addClass("toggle small-icon");
+	var mouseover = capitalize(id_name.replace(/_/g, " "));
+	image.addClass("toggle small-icon noselect");
 	image.attr('id', id_name);
+	image.attr('title', mouseover);
 	image.attr('src', path);
 
 	return image;
@@ -80,20 +134,80 @@ function setImagePaddings() {
 
 		var newPadding =  ((40 - h) / 2) + "px " + ((40 - w) / 2) + "px";
 
-		console.log("new padding is: " + newPadding)
-
 		$(this).css('padding', newPadding);
 	});
 }
 
+function capitalize(string) {
+	return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+
+function toggleAll() {
+
+	if (globalToggle === 0) {
+		$(".toggle").css('opacity', '1');
+		globalToggle++;
+	} else {
+		$(".toggle").css('opacity', '0.4');
+		globalToggle--;
+	}
+	
+	
+}
+
 function apply_toggle() {
 	$( ".toggle" ).click(function() {
-		var opacity = $( this ).css( "opacity" );
-		if (opacity === "1") {
-			$(this).css('opacity', '0.4');
-		} else {
-			$(this).css('opacity', '1');
+
+		if( $(this).parent().attr("id") == "diaries") {
+			var path = $(this).attr("src");
+
+			var number = parseInt(path.slice(-5).charAt(0));
+
+			console.log("Number: " + number)
+
+			if($(this).css('opacity') != 1) {
+				$(this).css('opacity', '1');
+			}
+
+			else if(number === 1) {
+				$(this).attr("src", path.replace("1.png", "2.png"));
+				$(this).css('opacity', '1');
+			}
+			else if(number === 2) {
+				$(this).attr("src", path.replace("2.png", "3.png"));
+				$(this).css('opacity', '1');
+			}
+			else if(number === 3) {
+				$(this).attr("src", path.replace("3.png", "4.png"));
+				$(this).css('opacity', '1');
+			}
+			else if(number === 4) {
+				$(this).attr("src", path.replace("4.png", "1.png"));
+				$(this).css('opacity', '0.4');			
+			}
+
+			var src = $(this).attr("src");
+			var preloadedID = src.substring(15, src.length - 4);
+
+			var loadedImg = $("#" + preloadedID);
+
+			var w = parseInt($(loadedImg).css("width"));
+			var h = parseInt($(loadedImg).css("height"));
+
+			var newPadding =  ((40 - h) / 2) + "px " + ((40 - w) / 2) + "px";
+			console.log("Setting new padding: " + newPadding);
+			$(this).css('padding', newPadding);
+
 		}
-		console.log("Toggled!")
+
+		else {
+			var opacity = $( this ).css( "opacity" );
+			if (opacity === "1") {
+				$(this).css('opacity', '0.4');
+			} else {
+				$(this).css('opacity', '1');
+			}
+		}
 	});
 }
