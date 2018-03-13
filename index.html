@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="css/css.css?version=1">
 	<link rel="stylesheet" href="css/loading.css?version=1">
 
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Permanent+Marker" rel="stylesheet">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
@@ -33,20 +33,54 @@
 </head>
 
 <body>
-	<button id="toggle-all-button">Toggle all items</button>
-	<button id="export-image-button">Export image</button>
 
-	<!-- <div id="loading-screen">
-		<div class="orbit-spinner">
-			<div class="orbit"></div>
-			<div class="orbit"></div>
-			<div class="orbit"></div>
+	<div id="how-to">
+		<div id="title">
+			OSRS Progress Tracker
 		</div>
-	</div> -->
+
+		<div id="loading-screen">
+			<div class="orbit-spinner">
+				<div class="orbit"></div>
+				<div class="orbit"></div>
+				<div class="orbit"></div>
+			</div>
+			Loading...
+		</div>
+
+		<div id="instructions">
+			<div id="instructions-text">
+				<ul>
+					<li>All items can be clicked to toggle them as opaque/translucent.</li>
+					<li>The Achievement Diary items will loop through their tiers.</li>
+					<li>In order to download your image, click the "Render image" button.</li>
+					<li>In the space to the right, a preview of your image will appear, to download it in full resolution,
+						right click the preview and click "Save image as ..." to wherever you want.
+					</li>
+				</ul>
+			</div>
+			
+			<div id="download-div"></div>
+		</div>
+
+		<div id="buttons">
+			<button id="toggle-all-button">Toggle all items</button>
+			<button id="export-image-button">Render image</button>
+		</div>
+
+	</div>
 
 	<div id="main-content">
-		
+
 	</div>
+
+	<div id="pre-load-images"></div>
+
+	<footer>
+		<p>Created with ♥ by Marcus Heine</p>
+		<br>
+		<p>Is something not working as it should? Ideas for new items to be added? General comments? Feel free to contact me via <a href="mailto:mail@mheine.se">e-mail</a> or by submitting an issue in the <a href="https://github.com/mheine/osrs-progress-tracker">GitHub repository</a>.</p>
+	</footer>
 </body>
 
 <script type="text/javascript">

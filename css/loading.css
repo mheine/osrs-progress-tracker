@@ -3,8 +3,9 @@
     }
 
     .orbit-spinner {
-      height: 55px;
-      width: 55px;
+      display: inline-block;
+      height: 35px;
+      width: 35px;
       border-radius: 50%;
       perspective: 800px;
     }

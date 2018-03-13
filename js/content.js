@@ -1,7 +1,11 @@
 var globalToggle = 0;
 
 $(window).on("load", function() {
-	//setImagePaddings();
+	setImagePaddings();
+
+	$( "#export-image-button" ).click(exportImage);
+
+	$( "#toggle-all-button" ).click(toggleAll);
 
 	$("#loading-screen").css("display", "none");
 });
@@ -38,9 +42,6 @@ $("document").ready(function() {
 
 		createDividers();
 
-		$( "#export-image-button" ).click(exportImage);
-
-		$( "#toggle-all-button" ).click(toggleAll);
 		apply_toggle();
 	});
 
@@ -60,7 +61,7 @@ function createHiddenDiaryImages(data) {
 				image.addClass("default-hidden");
 				image.attr('id', subgroup[j].id + "_" + k);
 				image.attr('src', path);
-				$('#main-content').append(image);
+				$('#pre-load-images').append(image);
 
 			}
 
@@ -72,9 +73,19 @@ function createHiddenDiaryImages(data) {
 }
 
 function exportImage() {
+	$('#download-div').empty();
 	html2canvas(document.querySelector("#main-content")).then(canvas => {
 		console.log("Attempting to export image");
-		ReImg.fromCanvas(canvas).downloadPng()
+		
+		var data = canvas.toDataURL("image/png");
+		var image = $('<img />');
+		image.attr('id', "rendered-image");
+		image.attr('src', data);
+		image.css('width', "70px");
+		image.css('height', "112px");
+		$('#download-div').append(image);
+		
+		//ReImg.fromCanvas(canvas).downloadPng("osrs-progress")
 	});
 }
 
@@ -132,9 +143,9 @@ function setImagePaddings() {
 		var w = parseInt($(this).css("width"));
 		var h = parseInt($(this).css("height"));
 
-		var newPadding =  ((40 - h) / 2) + "px " + ((40 - w) / 2) + "px";
+		var newPadding =  Math.floor(((40 - h) / 2)) + "px " + Math.floor(((40 - w) / 2)) + "px";
 
-		var wPad = ((40 - w) / 2) + "px"
+		var wPad = ((40 - w) / 2) + "px";
 		var hPad = ((40 - h) / 2) + "px";
 
 		//$(this).css('paddingLeft', wPad);
@@ -142,7 +153,9 @@ function setImagePaddings() {
 		//$(this).css('paddingTop', hPad);
 		//$(this).css('paddingBottom', hPad);
 
-		//$(this).css('padding', newPadding);
+		console.log("Setting padding values: " + newPadding)
+
+		$(this).css('padding', newPadding);
 	});
 }
 
