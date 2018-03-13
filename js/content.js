@@ -38,11 +38,13 @@ $(function() {
 
 	$( "#export-image-button" ).click(exportImage);
 	$( "#toggle-all-button" ).click(toggleAll);
+	$( "#save-data-button" ).click(saveState);
 
 });
 
 $(window).on("load", function() {
 	setMainContentBounds();
+	applyState();
 	setTimeout(function(){
 		setImagePaddings();
 		$("#loading-screen").css("display", "none");
