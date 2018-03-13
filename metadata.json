@@ -314,10 +314,6 @@
           "img_path": "images/capes/max/Imbued_zamorak_max_cape.png"
         },
         {
-          "id": "zamorak_max_cape",
-          "img_path": "images/capes/max/Zamorak_max_cape.png"
-        },
-        {
           "id": "imbued_guthix_max_cape",
           "img_path": "images/capes/max/Imbued_guthix_max_cape.png"
         },
@@ -328,10 +324,6 @@
         {
           "id": "fire_max_cape",
           "img_path": "images/capes/max/Fire_max_cape.png"
-        },
-        {
-          "id": "saradomin_max_cape",
-          "img_path": "images/capes/max/Saradomin_max_cape.png"
         },
         {
           "id": "assembler_max_cape",
@@ -945,8 +937,8 @@
     {
       "items": [
         {
-          "id": "graceful_boots",
-          "img_path": "images/outfits/graceful/Graceful_boots.png"
+          "id": "graceful_hood",
+          "img_path": "images/outfits/graceful/Graceful_hood.png"
         },
         {
           "id": "graceful_cape",
@@ -957,16 +949,16 @@
           "img_path": "images/outfits/graceful/Graceful_gloves.png"
         },
         {
-          "id": "graceful_hood",
-          "img_path": "images/outfits/graceful/Graceful_hood.png"
+          "id": "graceful_top",
+          "img_path": "images/outfits/graceful/Graceful_top.png"
         },
         {
           "id": "graceful_legs",
           "img_path": "images/outfits/graceful/Graceful_legs.png"
         },
         {
-          "id": "graceful_top",
-          "img_path": "images/outfits/graceful/Graceful_top.png"
+          "id": "graceful_boots",
+          "img_path": "images/outfits/graceful/Graceful_boots.png"
         }
       ],
       "group_id": "graceful",
@@ -979,32 +971,32 @@
           "img_path": "images/outfits/ba/Fighter_hat.png"
         },
         {
-          "id": "fighter_torso",
-          "img_path": "images/outfits/ba/Fighter_torso.png"
-        },
-        {
           "id": "healer_hat",
           "img_path": "images/outfits/ba/Healer_hat.png"
-        },
-        {
-          "id": "penance_gloves",
-          "img_path": "images/outfits/ba/Penance_gloves.png"
-        },
-        {
-          "id": "penance_skirt",
-          "img_path": "images/outfits/ba/Penance_skirt.png"
         },
         {
           "id": "ranger_hat",
           "img_path": "images/outfits/ba/Ranger_hat.png"
         },
         {
-          "id": "runner_boots",
-          "img_path": "images/outfits/ba/Runner_boots.png"
-        },
-        {
           "id": "runner_hat",
           "img_path": "images/outfits/ba/Runner_hat.png"
+        },
+        {
+          "id": "fighter_torso",
+          "img_path": "images/outfits/ba/Fighter_torso.png"
+        },
+        {
+          "id": "penance_skirt",
+          "img_path": "images/outfits/ba/Penance_skirt.png"
+        },
+        {
+          "id": "penance_gloves",
+          "img_path": "images/outfits/ba/Penance_gloves.png"
+        },
+        {
+          "id": "runner_boots",
+          "img_path": "images/outfits/ba/Runner_boots.png"
         }
       ],
       "group_id": "ba",
@@ -1013,12 +1005,12 @@
     {
       "items": [
         {
-          "id": "angler_boots",
-          "img_path": "images/outfits/angler/Angler_boots.png"
-        },
-        {
           "id": "angler_hat",
           "img_path": "images/outfits/angler/Angler_hat.png"
+        },
+        {
+          "id": "angler_boots",
+          "img_path": "images/outfits/angler/Angler_boots.png"
         },
         {
           "id": "angler_top",
@@ -1035,8 +1027,16 @@
     {
       "items": [
         {
+          "id": "farmer's_strawhat",
+          "img_path": "images/outfits/farmer/Farmer's_strawhat.png"
+        },
+        {
           "id": "farmer's_boots",
           "img_path": "images/outfits/farmer/Farmer's_boots.png"
+        },
+        {
+          "id": "gricoller's_can",
+          "img_path": "images/outfits/farmer/Gricoller's_can.png"
         },
         {
           "id": "farmer's_boro_trousers",
@@ -1045,14 +1045,6 @@
         {
           "id": "farmer's_jacket",
           "img_path": "images/outfits/farmer/Farmer's_jacket.png"
-        },
-        {
-          "id": "farmer's_strawhat",
-          "img_path": "images/outfits/farmer/Farmer's_strawhat.png"
-        },
-        {
-          "id": "gricoller's_can",
-          "img_path": "images/outfits/farmer/Gricoller's_can.png"
         },
         {
           "id": "seed_box",
@@ -1065,20 +1057,20 @@
     {
       "items": [
         {
-          "id": "lumberjack_boots",
-          "img_path": "images/outfits/lumberjack/Lumberjack_boots.png"
-        },
-        {
           "id": "lumberjack_hat",
           "img_path": "images/outfits/lumberjack/Lumberjack_hat.png"
         },
         {
-          "id": "lumberjack_legs",
-          "img_path": "images/outfits/lumberjack/Lumberjack_legs.png"
+          "id": "lumberjack_boots",
+          "img_path": "images/outfits/lumberjack/Lumberjack_boots.png"
         },
         {
           "id": "lumberjack_top",
           "img_path": "images/outfits/lumberjack/Lumberjack_top.png"
+        },
+        {
+          "id": "lumberjack_legs",
+          "img_path": "images/outfits/lumberjack/Lumberjack_legs.png"
         }
       ],
       "group_id": "lumberjack",
@@ -1087,20 +1079,16 @@
     {
       "items": [
         {
-          "id": "coal_bag",
-          "img_path": "images/outfits/prospector/Coal_bag.png"
-        },
-        {
-          "id": "gem_bag",
-          "img_path": "images/outfits/prospector/Gem_bag.png"
+          "id": "prospector_helmet",
+          "img_path": "images/outfits/prospector/Prospector_helmet.png"
         },
         {
           "id": "prospector_boots",
           "img_path": "images/outfits/prospector/Prospector_boots.png"
         },
         {
-          "id": "prospector_helmet",
-          "img_path": "images/outfits/prospector/Prospector_helmet.png"
+          "id": "coal_bag",
+          "img_path": "images/outfits/prospector/Coal_bag.png"
         },
         {
           "id": "prospector_jacket",
@@ -1109,6 +1097,10 @@
         {
           "id": "prospector_legs",
           "img_path": "images/outfits/prospector/Prospector_legs.png"
+        },
+        {
+          "id": "gem_bag",
+          "img_path": "images/outfits/prospector/Gem_bag.png"
         }
       ],
       "group_id": "prospector",
@@ -1117,24 +1109,24 @@
     {
       "items": [
         {
+          "id": "pyromancer_hood",
+          "img_path": "images/outfits/pyromancer/Pyromancer_hood.png"
+        },
+        {
           "id": "pyromancer_boots",
           "img_path": "images/outfits/pyromancer/Pyromancer_boots.png"
+        },
+        {
+          "id": "warm_gloves",
+          "img_path": "images/outfits/pyromancer/Warm_gloves.png"
         },
         {
           "id": "pyromancer_garb",
           "img_path": "images/outfits/pyromancer/Pyromancer_garb.png"
         },
         {
-          "id": "pyromancer_hood",
-          "img_path": "images/outfits/pyromancer/Pyromancer_hood.png"
-        },
-        {
           "id": "pyromancer_robe",
           "img_path": "images/outfits/pyromancer/Pyromancer_robe.png"
-        },
-        {
-          "id": "warm_gloves",
-          "img_path": "images/outfits/pyromancer/Warm_gloves.png"
         }
       ],
       "group_id": "pyromancer",
@@ -1143,20 +1135,16 @@
     {
       "items": [
         {
-          "id": "rogue_boots",
-          "img_path": "images/outfits/rogue/Rogue_boots.png"
-        },
-        {
-          "id": "rogue_gloves",
-          "img_path": "images/outfits/rogue/Rogue_gloves.png"
+          "id": "rogue_mask",
+          "img_path": "images/outfits/rogue/Rogue_mask.png"
         },
         {
           "id": "rogue_kit",
           "img_path": "images/outfits/rogue/Rogue_kit.png"
         },
         {
-          "id": "rogue_mask",
-          "img_path": "images/outfits/rogue/Rogue_mask.png"
+          "id": "rogue_gloves",
+          "img_path": "images/outfits/rogue/Rogue_gloves.png"
         },
         {
           "id": "rogue_top",
@@ -1165,6 +1153,10 @@
         {
           "id": "rogue_trousers",
           "img_path": "images/outfits/rogue/Rogue_trousers.png"
+        },
+        {
+          "id": "rogue_boots",
+          "img_path": "images/outfits/rogue/Rogue_boots.png"
         }
       ],
       "group_id": "rogue",
@@ -1173,28 +1165,12 @@
     {
       "items": [
         {
-          "id": "elite_void_robe",
-          "img_path": "images/outfits/void/Elite_void_robe_v2.png"
+          "id": "void_knight_top",
+          "img_path": "images/outfits/void/Void_knight_top.png"
         },
         {
           "id": "elite_void_top",
           "img_path": "images/outfits/void/Elite_void_top_v2.png"
-        },
-        {
-          "id": "void_knight_gloves",
-          "img_path": "images/outfits/void/Void_knight_gloves.png"
-        },
-        {
-          "id": "void_knight_mace",
-          "img_path": "images/outfits/void/Void_knight_mace.png"
-        },
-        {
-          "id": "void_knight_robe",
-          "img_path": "images/outfits/void/Void_knight_robe.png"
-        },
-        {
-          "id": "void_knight_top",
-          "img_path": "images/outfits/void/Void_knight_top.png"
         },
         {
           "id": "void_mage_helm",
@@ -1207,6 +1183,22 @@
         {
           "id": "void_ranger_helm",
           "img_path": "images/outfits/void/Void_ranger_helm.png"
+        },
+        {
+          "id": "void_knight_robe",
+          "img_path": "images/outfits/void/Void_knight_robe.png"
+        },
+        {
+          "id": "elite_void_robe",
+          "img_path": "images/outfits/void/Elite_void_robe_v2.png"
+        },
+        {
+          "id": "void_knight_gloves",
+          "img_path": "images/outfits/void/Void_knight_gloves.png"
+        },
+        {
+          "id": "void_knight_mace",
+          "img_path": "images/outfits/void/Void_knight_mace.png"
         }
       ],
       "group_id": "void",
