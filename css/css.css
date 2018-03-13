@@ -4,10 +4,9 @@ body {
 	height: 100%;
 	width: 100%;
 
-	max-width: 100%;
-    overflow-x: hidden;
+	overflow-x: hidden;
 
-	background-color: #323232;
+	background-color: #424242;
 }
 
 .toggle {
@@ -36,7 +35,7 @@ body {
 	width: auto;
 
 	display: block;
-    text-align: center;
+	text-align: center;
 }
 
 #instructions-text {
@@ -53,7 +52,7 @@ body {
 }
 
 #download-div {
-	background-color: #404040;
+	background-color: #505050;
 
 	border-width: 2px;
 	border-style: solid;
@@ -70,36 +69,46 @@ body {
 }
 
 #main-content {
-	margin-top: 20px;
-	
-	margin-left: auto;
-	margin-right: auto;
 
+	margin: 20px auto;
 
 	padding-top: 40px;
 	padding-left: 80px;
 
-	max-width: 1000px;
+	width: 1000px;
+	height: 1400px;
 
-	height: 1350px !important;
+	position: relative;
 
-	background-image: url("../images/background/bg.png");
-	background-size:     100% 100%;
-	background-repeat:   no-repeat;
+	/* background-image: url("../images/background/bg-vert.png"); */
+}
+
+#fixed-background-image {
+	position: absolute;
+	z-index: -3;
+	top: 0;
+	left: 0;
+
+	width: 1060px !important;
+	height: 1400px !important;
 }
 
 hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: 10%;
-    margin-right: auto;
-    border-style: solid;
-    border-width: 0.5px;
+	display: block;
 
-    opacity: 0.3;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 
-    width: 700px;
+	margin-left: 60px;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 0.5px;
+
+	overflow-x: visible; 
+
+	opacity: 0.3;
+
+	width: 700px;
 }
 
 /* BARROWS */
