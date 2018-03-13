@@ -74,15 +74,16 @@ function createHiddenDiaryImages(data) {
 
 function exportImage() {
 	$('#download-div').empty();
-	html2canvas(document.querySelector("#main-content")).then(canvas => {
+	html2canvas(document.querySelector("#main-content"), {width: 1060, height: 1400, x: 126, y: 265}).then(canvas => {
 		console.log("Attempting to export image");
 		
 		var data = canvas.toDataURL("image/png");
 		var image = $('<img />');
 		image.attr('id', "rendered-image");
 		image.attr('src', data);
-		image.css('width', "70px");
-		image.css('height', "112px");
+		image.attr('download', 'osrs-progress.png');
+		image.css('width', "100%");
+		image.css('height', "100%");
 		$('#download-div').append(image);
 		
 		//ReImg.fromCanvas(canvas).downloadPng("osrs-progress")
@@ -90,13 +91,21 @@ function exportImage() {
 }
 
 function createDividers() {
-	$("#div-outfits").append('<hr />');
-	$("#div-capes").prepend('<hr />');
-	$("#div-clues").prepend('<hr />');
-	$("#div-clues").append('<hr />');
-	$("#div-gwd").prepend('<hr />');
-	$("#div-pvm").prepend('<hr />');
-	$("#div-pvm").append('<hr />');
+
+	var line = '<hr />';
+	$(line).attr("id", "normal-hr")
+	var gwdLine = '<hr />';
+	$(gwdLine).attr("id", "gwd-hr")
+
+	$("#div-outfits").append(line);
+	$("#div-capes").prepend(line);
+	$("#div-clues").prepend(line);
+	$("#div-clues").append(line);
+	$("#div-pvm").prepend(line);
+	$("#div-pvm").append(line);
+
+	$('#div-gwd').prepend(gwdLine);
+	//$("#div-gwd").prepend(line);
 
 }
 
