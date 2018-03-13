@@ -28,11 +28,11 @@ $(function() {
 
 		createHiddenDiaryImages(itemdata.diaries);
 
+		createDividers();
+
+		apply_toggle();
+
 	});
-
-	createDividers();
-
-	apply_toggle();
 
 	$( "#export-image-button" ).click(exportImage);
 	$( "#toggle-all-button" ).click(toggleAll);
