@@ -1,20 +1,6 @@
 var globalToggle = 0;
 
-$(window).on("load", function() {
-	setImagePaddings();
-
-	setMainContentBounds();
-
-	$( "#export-image-button" ).click(exportImage);
-
-	$( "#toggle-all-button" ).click(toggleAll);
-
-	$("#loading-screen").css("display", "none");
-});
-
-
-$("document").ready(function() {
-
+$(function() {
 	$.getJSON( "metadata.json", function( itemdata ) {
 
 		var sections = Object.keys(itemdata);
@@ -42,13 +28,36 @@ $("document").ready(function() {
 
 		createHiddenDiaryImages(itemdata.diaries);
 
-		createDividers();
-
-		apply_toggle();
 	});
 
+	createDividers();
+
+	apply_toggle();
+
+	$( "#export-image-button" ).click(exportImage);
+	$( "#toggle-all-button" ).click(toggleAll);
+
+	console.log("JSON data has been read and applied to DOM.")
+});
+
+$(window).on("load", function() {
+	setTimeout(function(){
+		setMainContentBounds();
+		setImagePaddings();
+		$("#loading-screen").css("display", "none");
+	}, 1000);
 
 });
+
+$( window ).resize(function() {
+	setMainContentBounds();
+});
+
+$(window).on('zoom', function() {
+	console.log('zoom', window.devicePixelRatio);
+	setMainContentBounds();
+});
+
 
 function createHiddenDiaryImages(data) {
 	for (var i = 0; i <= data.length - 1; i++) {
@@ -151,8 +160,11 @@ function setImagePaddings() {
 
 	$( ".small-icon" ).each(function() {
 
-		var w = parseInt($(this).css("width"));
-		var h = parseInt($(this).css("height"));
+		var w = parseInt($(this).width());
+		var h = parseInt($(this).height());
+
+		$(this).width(Math.floor(w));
+		$(this).height(Math.floor(h));
 
 		var newPadding =  Math.floor(((40 - h) / 2)) + "px " + Math.floor(((40 - w) / 2)) + "px";
 
@@ -163,12 +175,11 @@ function setImagePaddings() {
 function setMainContentBounds() {
 
 	var div = $("#main-content");
-
 	var w = Math.max(window.innerWidth, document.documentElement.clientWidth);
-
 	var divW = parseInt($(div).css("width"));
-
 	var newMargin = ((w - divW) / 2);
+
+	console.log("DEBUG: Applying content bounds.")
 
 	$(div).css('marginLeft', newMargin);
 	$(div).css('marginRight', newMargin);
