@@ -377,7 +377,7 @@ hr {
 }
 
 #corp {
-	width: 80px;
+	width: 40px;
 }
 
 #dks {
@@ -389,8 +389,13 @@ hr {
 }
 
 #slayer {
-	width: 240px;
+	width: 280px;
 }
+
+#dust_battlestaff {
+	margin-left: 40px;
+}
+
 
 #vorkath {
 	width: 40px;
@@ -466,7 +471,7 @@ hr {
 
 footer {
 	font-family: Lato;
-	font-weight: 500;
+	font-size: 12px;
 	display: inline-block;
 	width: 100%;
 	text-align: center;
@@ -475,7 +480,20 @@ footer {
 
 footer p {
 	display: inline-block;
-	max-width: 650px;
+	width: 490px;
+}
+
+#thats-me {
+	width: 100%;
+	font-size: 14px;
+}
+
+#thats-them {
+	margin-right: 40px; 
+}
+
+#thats-all {
+	margin-left: 40px;
 }
 
 footer a:link {color:#BBBBFF;}

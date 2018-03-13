@@ -39,8 +39,8 @@ $(function() {
 });
 
 $(window).on("load", function() {
+	setMainContentBounds();
 	setTimeout(function(){
-		setMainContentBounds();
 		setImagePaddings();
 		$("#loading-screen").css("display", "none");
 	}, 1000);
@@ -152,13 +152,10 @@ function capitalize(string) {
 
 function setImagePaddings() {
 
-	$( ".small-icon" ).each(function() {
+	$( ".toggle" ).each(function() {
 
 		var w = parseInt($(this).width());
 		var h = parseInt($(this).height());
-
-		$(this).width(Math.floor(w));
-		$(this).height(Math.floor(h));
 
 		var newPadding =  Math.floor(((40 - h) / 2)) + "px " + Math.floor(((40 - w) / 2)) + "px";
 
@@ -180,5 +177,58 @@ function setMainContentBounds() {
 
 	$(div).css('paddingTop', "40px");
 	$(div).css('paddingLeft', "80px");
+}
+
+function apply_toggle() {
+	$( ".toggle" ).click(function() {
+
+		if( $(this).parent().attr("id") == "diaries") {
+			var path = $(this).attr("src");
+
+			var number = parseInt(path.slice(-5).charAt(0));
+
+			if($(this).css('opacity') != 1) {
+				$(this).css('opacity', '1');
+			}
+
+			else if(number === 1) {
+				$(this).attr("src", path.replace("1.png", "2.png"));
+				$(this).css('opacity', '1');
+			}
+			else if(number === 2) {
+				$(this).attr("src", path.replace("2.png", "3.png"));
+				$(this).css('opacity', '1');
+			}
+			else if(number === 3) {
+				$(this).attr("src", path.replace("3.png", "4.png"));
+				$(this).css('opacity', '1');
+			}
+			else if(number === 4) {
+				$(this).attr("src", path.replace("4.png", "1.png"));
+				$(this).css('opacity', '0.4');			
+			}
+
+			var src = $(this).attr("src");
+			var preloadedID = src.substring(15, src.length - 4);
+
+			var loadedImg = $("#" + preloadedID);
+
+			var w = parseInt($(loadedImg).css("width"));
+			var h = parseInt($(loadedImg).css("height"));
+
+			var newPadding =  ((40 - h) / 2) + "px " + ((40 - w) / 2) + "px";
+			$(this).css('padding', newPadding);
+
+		}
+
+		else {
+			var opacity = $( this ).css( "opacity" );
+			if (opacity === "1") {
+				$(this).css('opacity', '0.4');
+			} else {
+				$(this).css('opacity', '1');
+			}
+		}
+	});
 }
 
