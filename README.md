@@ -2,6 +2,8 @@
 
 A simple static webapp to keep track of your progress in OSRS. Each image can be toggled _on_/_off_, you can input the number of clues you have completed at each tier, and you can show what stage of each Achievement diary you have completed.
 
+The envisioned workflow is to toggle the icons representing the things you have achieved/collected, then rendering and downloading an image of your progress.
+
 The project is far from perfect, and there will always be items that are not added. If you have a suggestion, feel free to add it!
 
 ## Development
