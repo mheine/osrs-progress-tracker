@@ -3,6 +3,8 @@ var globalToggle = 0;
 $(window).on("load", function() {
 	setImagePaddings();
 
+	setMainContentBounds();
+
 	$( "#export-image-button" ).click(exportImage);
 
 	$( "#toggle-all-button" ).click(toggleAll);
@@ -74,7 +76,7 @@ function createHiddenDiaryImages(data) {
 
 function exportImage() {
 	$('#download-div').empty();
-	html2canvas(document.querySelector("#main-content"), {width: 1060, height: 1400, x: 126, y: 265}).then(canvas => {
+	html2canvas(document.querySelector("#main-content"), {width: 1080, height: 1400}).then(canvas => {
 		console.log("Attempting to export image");
 		
 		var data = canvas.toDataURL("image/png");
@@ -154,18 +156,25 @@ function setImagePaddings() {
 
 		var newPadding =  Math.floor(((40 - h) / 2)) + "px " + Math.floor(((40 - w) / 2)) + "px";
 
-		var wPad = ((40 - w) / 2) + "px";
-		var hPad = ((40 - h) / 2) + "px";
-
-		//$(this).css('paddingLeft', wPad);
-		//$(this).css('paddingRight', wPad);
-		//$(this).css('paddingTop', hPad);
-		//$(this).css('paddingBottom', hPad);
-
-		console.log("Setting padding values: " + newPadding)
-
 		$(this).css('padding', newPadding);
 	});
+}
+
+function setMainContentBounds() {
+
+	var div = $("#main-content");
+
+	var w = Math.max(window.innerWidth, document.documentElement.clientWidth);
+
+	var divW = parseInt($(div).css("width"));
+
+	var newMargin = ((w - divW) / 2);
+
+	$(div).css('marginLeft', newMargin);
+	$(div).css('marginRight', newMargin);
+
+	$(div).css('paddingTop', "40px");
+	$(div).css('paddingLeft', "80px");
 }
 
 function capitalize(string) {
