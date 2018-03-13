@@ -28,14 +28,17 @@ $(function() {
 
 		createDividers();
 
+		createTextBoxes();
+
 		apply_toggle();
+
+		console.log("JSON data has been read and applied to DOM.")
 
 	});
 
 	$( "#export-image-button" ).click(exportImage);
 	$( "#toggle-all-button" ).click(toggleAll);
 
-	console.log("JSON data has been read and applied to DOM.")
 });
 
 $(window).on("load", function() {
@@ -107,6 +110,19 @@ function createDividers() {
 	$("#div-pvm").append(line);
 
 	$('#div-gwd').prepend(gwdLine);
+}
+
+function createTextBoxes() {
+
+	$('<input/>').attr({ type: 'text', placeholder: '13', class: 'clue-input', id: 'input-easy', name: '45'}).appendTo('#milestones');
+	$('<input/>').attr({ type: 'text', placeholder: '76', class: 'clue-input', id: 'input-medium', name: '35'}).appendTo('#milestones');
+	$('<input/>').attr({ type: 'text', placeholder: '178', class: 'clue-input', id: 'input-hard', name: '11'}).appendTo('#milestones');
+	$('<input/>').attr({ type: 'text', placeholder: '89', class: 'clue-input', id: 'input-elite', name: '89'}).appendTo('#milestones');
+	$('<input/>').attr({ type: 'text', placeholder: '10', class: 'clue-input', id: 'input-master', name: '12'}).appendTo('#milestones');
+
+	$(".clue-input").on("change paste keyup", function() {
+		$(this).css("background-color", "transparent")
+	});
 }
 
 function createSection(data, divID) {

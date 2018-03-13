@@ -60,12 +60,27 @@ body {
 	border-radius: 2px;
 
 	display: inline-block;
-	width: 70px;
-	height: 110px;
+	width: 80px;
+	height: 130px;
 }
 
-#buttons {
+#button-div {
 	text-align: center;
+}
+
+.user-button {
+    background-color: #121212; /* Green */
+    border-radius: 3px;
+    border-color: #121212;
+    border-style: solid;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #main-content {
@@ -100,7 +115,7 @@ hr {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 
-	margin-left: 60px;
+	margin-left: 100px;
 	margin-right: auto;
 	border-style: solid;
 	border-width: 0.5px;
@@ -110,6 +125,37 @@ hr {
 	opacity: 0.3;
 
 	width: 700px;
+}
+
+.clue-input {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 45px;
+    position: absolute;
+    top: 60px;
+    border: 0px solid;
+    text-align: center;
+    font-family: 'Permanent Marker';
+    font-size: 18px;
+}
+
+#input-easy {
+	left: 450px;
+}
+
+#input-medium {
+	left: 540px;
+}
+
+#input-hard {
+	left: 630px;
+}
+
+#input-elite {
+	left: 720px;
+}
+
+#input-master {
+	left: 810px;
 }
 
 /* BARROWS */
@@ -171,6 +217,7 @@ hr {
 #div-clues {
 	display: block;
 	width: 880px;
+	position: relative;
 }
 
 #thirdage {
@@ -186,16 +233,15 @@ hr {
 
 #milestones {
 	display: inline-block;
-	width: 400px;
+	width: 500px;
 
 	vertical-align: top;
 
 	margin-top: 40px;
-	margin-left: 40px;
 }
 
 #milestones img {
-	margin-left: 40px;
+	margin-left: 50px;
 }
 
 /* COLLECTIONS */
