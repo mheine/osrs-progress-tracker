@@ -16,6 +16,7 @@ The project is far from perfect, and there will always be items that are not add
 
 ### Running a server
 * To show the page, navigate to the root directory and run `python -m SimpleHTTPServer`
+* Visit `localhost:8000` in your browser.
 * Currently development has only been done on Unix.
 
 
