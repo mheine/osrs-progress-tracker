@@ -29,11 +29,14 @@ function storageAvailable(type) {
 function saveState() {
 	if (storageAvailable('localStorage')) {
 
+		var counter = 0;
+
 		dataArray = []
 		$( ".toggle" ).each(function() {
 
 			if($(this).css('opacity') == 1) {
 				dataArray.push(1);
+				counter++;
 			} else {
 				dataArray.push(0);
 			}
@@ -51,7 +54,7 @@ function saveState() {
     	});
 		}, 2000);
 
-		console.log("Data was saved!")
+		console.log(dataArray.length + " item states saved. " + counter + " items were toggled.")
 	}
 }
 
@@ -68,6 +71,7 @@ function applyState() {
 
 		if(dataArray.length != $( ".toggle" ).length) {
 			console.log("ERROR: Could not apply data because of a length mismatch. Exiting.")
+			console.log("DataArray has " + dataArray.length + " items while toggle.length has " + $( ".toggle" ).length )
 			return
 		}
 

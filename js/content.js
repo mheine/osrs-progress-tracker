@@ -2,7 +2,6 @@ $(function() {
 	$.getJSON( "metadata.json", function( itemdata ) {
 
 		var sections = Object.keys(itemdata);
-		console.log("We have " + sections.length + " sections to create.")
 
 		createSection(itemdata.outfits, "div-outfits");
 		createSection(itemdata.barrows, "div-barrows");
@@ -32,23 +31,28 @@ $(function() {
 
 		apply_toggle();
 
-		console.log("JSON data has been read and applied to DOM.")
+		applyState();
+
+		console.log("JSON data has been read and applied to DOM.");
+
+		$('#main-content').imagesLoaded()
+		.always( function( instance ) {
+			setMainContentBounds();
+		})
+		.done( function( instance ) {
+			console.log('All images successfully loaded. Setting paddings.');
+			setImagePaddings();
+			$("#loading-screen").css("display", "none");
+		})
+		.fail( function() {
+			console.log('One or more images could not be loaded.');
+		});
 
 	});
 
 	$( "#export-image-button" ).click(exportImage);
 	$( "#toggle-all-button" ).click(toggleAll);
 	$( "#save-data-button" ).click(saveState);
-
-});
-
-$(window).on("load", function() {
-	setMainContentBounds();
-	applyState();
-	setTimeout(function(){
-		setImagePaddings();
-		$("#loading-screen").css("display", "none");
-	}, 1000);
 
 });
 
@@ -116,11 +120,11 @@ function createDividers() {
 
 function createTextBoxes() {
 
-	$('<input/>').attr({ type: 'text', placeholder: '13', class: 'clue-input', id: 'input-easy', name: '45'}).appendTo('#milestones');
-	$('<input/>').attr({ type: 'text', placeholder: '76', class: 'clue-input', id: 'input-medium', name: '35'}).appendTo('#milestones');
-	$('<input/>').attr({ type: 'text', placeholder: '178', class: 'clue-input', id: 'input-hard', name: '11'}).appendTo('#milestones');
-	$('<input/>').attr({ type: 'text', placeholder: '89', class: 'clue-input', id: 'input-elite', name: '89'}).appendTo('#milestones');
-	$('<input/>').attr({ type: 'text', placeholder: '10', class: 'clue-input', id: 'input-master', name: '12'}).appendTo('#milestones');
+	$('<input/>').attr({ type: 'text', title: 'Number of easy clues', placeholder: '13', class: 'clue-input', id: 'input-easy', name: '45'}).appendTo('#milestones');
+	$('<input/>').attr({ type: 'text', title: 'Number of medium clues', placeholder: '76', class: 'clue-input', id: 'input-medium', name: '35'}).appendTo('#milestones');
+	$('<input/>').attr({ type: 'text', title: 'Number of hard clues', placeholder: '178', class: 'clue-input', id: 'input-hard', name: '11'}).appendTo('#milestones');
+	$('<input/>').attr({ type: 'text', title: 'Number of elite clues', placeholder: '89', class: 'clue-input', id: 'input-elite', name: '89'}).appendTo('#milestones');
+	$('<input/>').attr({ type: 'text', title: 'Number of master clues', placeholder: '10', class: 'clue-input', id: 'input-master', name: '12'}).appendTo('#milestones');
 
 	$(".clue-input").on("change paste keyup", function() {
 		$(this).css("background-color", "transparent")
@@ -187,8 +191,6 @@ function setMainContentBounds() {
 	var w = Math.max(window.innerWidth, document.documentElement.clientWidth);
 	var divW = parseInt($(div).css("width"));
 	var newMargin = ((w - divW) / 2);
-
-	console.log("DEBUG: Applying content bounds.")
 
 	$(div).css('marginLeft', newMargin);
 	$(div).css('marginRight', newMargin);
