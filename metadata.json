@@ -479,23 +479,23 @@
     }
 
   ],
-  "collections": [
+  "bh_skill": [
     {
       "items": [
         {
-          "id": "herb_sack",
-          "img_path": "images/collections/Herb_sack.png"
+          "id": "rogues_revenge",
+          "img_path": "images/bh_skill/Rogue's_revenge.png"
         },
         {
           "id": "rune_pouch",
-          "img_path": "images/collections/Rune_pouch.png"
+          "img_path": "images/bh_skill/Rune_pouch.png"
         },
         {
           "id": "pharaoahs_sceptre",
-          "img_path": "images/skilling/Pharaoh's_sceptre.png"
+          "img_path": "images/bh_skill/Pharaoh's_sceptre.png"
         }
       ],
-      "group_id": "collections",
+      "group_id": "bh_skill",
       "type": "supergroup"
     }
   ],
@@ -1517,10 +1517,6 @@
           "img_path": "images/pvm/slayer/Slayer_ring.png"
         },
         {
-          "id": "broad_bolts_5",
-          "img_path": "images/pvm/slayer/Broad_bolts_5.png"
-        },
-        {
           "id": "dark_bow",
           "img_path": "images/pvm/slayer/Dark_bow.png"
         },
@@ -1545,12 +1541,20 @@
           "img_path": "images/pvm/slayer/Trident_of_the_seas.png"
         },
         {
+          "id": "broad_bolts_5",
+          "img_path": "images/pvm/slayer/Broad_bolts_5.png"
+        },
+        {
           "id": "dust_battlestaff",
           "img_path": "images/pvm/slayer/Dust_battlestaff.png"
         },
         {
           "id": "mist_battlestaff",
           "img_path": "images/pvm/slayer/Mist_battlestaff.png"
+        },
+        {
+          "id": "eternal_slayer_gem",
+          "img_path": "images/pvm/slayer/Eternal_gem.png"
         },
         {
           "id": "imbued_heart",
@@ -1563,6 +1567,10 @@
         {
           "id": "smoke_battlestaff",
           "img_path": "images/pvm/slayer/Smoke_battlestaff.png"
+        },
+        {
+          "id": "herb_sack",
+          "img_path": "images/pvm/slayer/Herb_sack.png"
         }
       ],
       "group_id": "slayer",
