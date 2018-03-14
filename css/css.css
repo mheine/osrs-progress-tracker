@@ -31,6 +31,7 @@ body {
 
 #instructions {
 	font-family: 'lato';
+	font-weight: 500;
 
 	margin-left: auto;
 	margin-right: auto;
@@ -103,10 +104,10 @@ body {
 	padding-left: 80px;
 	padding-right: 80px;
 	padding-top: 40px;
-	padding-bottom: 120px;
+	padding-bottom: 80px;
 
 	width: 880px;
-	height: 1400px;
+	height: 1300px;
 
 	position: relative;
 }
@@ -329,7 +330,6 @@ hr {
 	display: inline-block;
 	width: 160px;
 	margin-left: 40px;
-	margin-right: 120px;
 }
 
 /* JEWELLRY */
@@ -494,24 +494,12 @@ hr {
 	display: block;
 	width: 400px;
 	margin-left: 240px;
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 
 #div-scrolls div {
 	display: inline-block;
 	width: 400px;
-}
-
-
-/* SKILLING */
-#div-skilling {
-	display: block;
-	width: 90%;
-}
-
-#div-skilling div {
-	display: inline-block;
-	width: 300px;
 }
 
 .noselect {
