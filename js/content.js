@@ -75,7 +75,7 @@ function createHiddenDiaryImages(data) {
 
 function exportImage() {
 	$('#download-div').empty();
-	html2canvas(document.querySelector("#main-content"), {width: 1040, height: 1560}).then(canvas => {
+	html2canvas(document.querySelector("#main-content"), {width: 1040, height: 1420}).then(canvas => {
 		console.log("Attempting to export image");
 		
 		var data = canvas.toDataURL("image/png");
