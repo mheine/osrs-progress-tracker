@@ -9,7 +9,7 @@ $(function() {
 		createSection(itemdata.capes, "div-capes");
 		createSection(itemdata.clues, "div-clues");
 		createSection(itemdata.dragon, "div-dragon");
-		createSection(itemdata.collections, "div-collections");
+		createSection(itemdata.bh_skill, "div-bh");
 		createSection(itemdata.drops, "div-drops");
 		createSection(itemdata.jewellry, "div-jewellry");
 		createSection(itemdata.diaries, "div-diaries");
@@ -36,9 +36,6 @@ $(function() {
 		console.log("JSON data has been read and applied to DOM.");
 
 		$('#main-content').imagesLoaded()
-		.always( function( instance ) {
-			setMainContentBounds();
-		})
 		.done( function( instance ) {
 			console.log('All images successfully loaded. Setting paddings.');
 			setImagePaddings();
@@ -54,15 +51,6 @@ $(function() {
 	$( "#toggle-all-button" ).click(toggleAll);
 	$( "#save-data-button" ).click(saveState);
 
-});
-
-$( window ).resize(function() {
-	setMainContentBounds();
-});
-
-$(window).on('zoom', function() {
-	console.log('zoom', window.devicePixelRatio);
-	setMainContentBounds();
 });
 
 
@@ -87,7 +75,7 @@ function createHiddenDiaryImages(data) {
 
 function exportImage() {
 	$('#download-div').empty();
-	html2canvas(document.querySelector("#main-content"), {width: 1080, height: 1400}).then(canvas => {
+	html2canvas(document.querySelector("#main-content"), {width: 1040, height: 1560}).then(canvas => {
 		console.log("Attempting to export image");
 		
 		var data = canvas.toDataURL("image/png");
@@ -184,71 +172,3 @@ function setImagePaddings() {
 		$(this).css('padding', newPadding);
 	});
 }
-
-function setMainContentBounds() {
-
-	var div = $("#main-content");
-	var w = Math.max(window.innerWidth, document.documentElement.clientWidth);
-	var divW = parseInt($(div).css("width"));
-	var newMargin = ((w - divW) / 2);
-
-	$(div).css('marginLeft', newMargin);
-	$(div).css('marginRight', newMargin);
-
-	$(div).css('paddingTop', "40px");
-	$(div).css('paddingLeft', "80px");
-}
-
-function apply_toggle() {
-	$( ".toggle" ).click(function() {
-
-		if( $(this).parent().attr("id") == "diaries") {
-			var path = $(this).attr("src");
-
-			var number = parseInt(path.slice(-5).charAt(0));
-
-			if($(this).css('opacity') != 1) {
-				$(this).css('opacity', '1');
-			}
-
-			else if(number === 1) {
-				$(this).attr("src", path.replace("1.png", "2.png"));
-				$(this).css('opacity', '1');
-			}
-			else if(number === 2) {
-				$(this).attr("src", path.replace("2.png", "3.png"));
-				$(this).css('opacity', '1');
-			}
-			else if(number === 3) {
-				$(this).attr("src", path.replace("3.png", "4.png"));
-				$(this).css('opacity', '1');
-			}
-			else if(number === 4) {
-				$(this).attr("src", path.replace("4.png", "1.png"));
-				$(this).css('opacity', '0.4');			
-			}
-
-			var src = $(this).attr("src");
-			var preloadedID = src.substring(15, src.length - 4);
-
-			var loadedImg = $("#" + preloadedID);
-
-			var w = parseInt($(loadedImg).css("width"));
-			var h = parseInt($(loadedImg).css("height"));
-
-			var newPadding =  ((40 - h) / 2) + "px " + ((40 - w) / 2) + "px";
-			$(this).css('padding', newPadding);
-
-		}
-
-		else {
-			var opacity = $( this ).css( "opacity" );
-			if (opacity === "1") {
-				$(this).css('opacity', '0.4');
-			} else {
-				$(this).css('opacity', '1');
-			}
-		}
-	});
-}
-
