@@ -17,7 +17,8 @@
 
 	<link rel="stylesheet" href="css/css.css?version=1">
 	<link rel="stylesheet" href="css/loading.css?version=1">
-		<link rel="stylesheet" href="css/content.css?version=1">
+	<link rel="stylesheet" href="css/content.css?version=1">
+	<link rel="stylesheet" media="screen and (max-width: 650px)" href="css/mobile.css?version=1">
 
 	<link href="https://fonts.googleapis.com/css?family=Lato|Permanent+Marker" rel="stylesheet">
 
@@ -65,12 +66,13 @@
 			</div>
 			
 			<div id="download-div"></div>
+			<div id="mobile-warning">WARNING: This page is not designed for mobile use. Feel free to look around, test it and use it, but be aware that results may not be optimal.</div>
 		</div>
 
 		<div id="button-div">
-			<button class="user-button" id="toggle-all-button">Toggle all items</button>
+			<button class="user-button" id="toggle-all-button"><span>Toggle all items</span></button>
 			<button class="user-button" id="save-data-button"><span id="save-text">Save data<span></button>
-			<button class="user-button" id="export-image-button">Render image</button>
+			<button class="user-button" id="export-image-button"><span>Render image</span></button>
 		</div>
 
 	</div>
