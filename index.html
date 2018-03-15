@@ -11,6 +11,11 @@
 	<meta property="og:description" content="OSRS Progress Tracker - create and export your own progress image!" />
 	<meta property="og:title" content="OSRS Progress Tracker" />
 
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Oldschool Runescape progress tracker" />
+	<meta name="twitter:description" content="A simple site to create your own personal progress image. Toggle items, select achievements and export the image!" />
+	<meta name="twitter:image" content="https://osrs.mheine.se/images/background/og-image-preview.png" />
+
 	<title>OSRS Progress Tracker</title>
 
 	<link rel="icon" href="images/favicon.ico">
@@ -72,26 +77,26 @@
 		<div id="button-div">
 			<button class="user-button" id="toggle-all-button"><span>Toggle all items</span></button>
 			<button class="user-button" id="save-data-button"><span id="save-text">Save data<span></button>
-			<button class="user-button" id="export-image-button"><span>Render image</span></button>
+				<button class="user-button" id="export-image-button"><span>Render image</span></button>
+			</div>
+
 		</div>
 
-	</div>
+		<div id="main-content">
+			<img id="fixed-background-image" src="images/background/bg-lg.png">
+		</div>
 
-	<div id="main-content">
-		<img id="fixed-background-image" src="images/background/bg-lg.png">
-	</div>
+		<div id="pre-load-images"></div>
 
-	<div id="pre-load-images"></div>
+		<footer>
+			<p id="thats-me">Created with ♥ by Marcus Heine.</p>
+			<p id="thats-them">Thanks to <a href="https://hertzen.com">Niklas von Hertzen</a> for writing html2canvas, <a href="https://reddit.com/u/MiniYoyo05">/u/MiniYoyo05</a> for creating the template and inspiration, and finally to all the employees at Jagex for their marvellous game.</p>
+			<p id="thats-all">Is something not working as it should? Ideas for new items to be added? General comments? Feel free to contact me via <a href="mailto:mail@mheine.se">e-mail</a> or by submitting an issue in the <a href="https://github.com/mheine/osrs-progress-tracker">GitHub repository</a>.</p>
+		</footer>
+	</body>
 
-	<footer>
-		<p id="thats-me">Created with ♥ by Marcus Heine.</p>
-		<p id="thats-them">Thanks to <a href="https://hertzen.com">Niklas von Hertzen</a> for writing html2canvas, <a href="https://reddit.com/u/MiniYoyo05">/u/MiniYoyo05</a> for creating the template and inspiration, and finally to all the employees at Jagex for their marvellous game.</p>
-		<p id="thats-all">Is something not working as it should? Ideas for new items to be added? General comments? Feel free to contact me via <a href="mailto:mail@mheine.se">e-mail</a> or by submitting an issue in the <a href="https://github.com/mheine/osrs-progress-tracker">GitHub repository</a>.</p>
-	</footer>
-</body>
+	<script type="text/javascript">
 
-<script type="text/javascript">
+	</script>
 
-</script>
-
-</html>
+	</html>
