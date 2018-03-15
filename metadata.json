@@ -555,52 +555,12 @@
     {
       "items": [
         {
-          "id": "Dragon_2h_sword",
-          "img_path": "images/dragon/Dragon_2h_sword.png"
-        },
-        {
-          "id": "Dragon_battleaxe",
-          "img_path": "images/dragon/Dragon_battleaxe.png"
-        },
-        {
-          "id": "Dragon_boots",
-          "img_path": "images/dragon/Dragon_boots.png"
-        },
-        {
-          "id": "Dragon_chainbody",
-          "img_path": "images/dragon/Dragon_chainbody.png"
-        },
-        {
-          "id": "Dragon_defender",
-          "img_path": "images/dragon/Dragon_defender.png"
-        },
-        {
-          "id": "Dragon_full_helm",
-          "img_path": "images/dragon/Dragon_full_helm.png"
-        },
-        {
-          "id": "Dragon_kiteshield",
-          "img_path": "images/dragon/Dragon_kiteshield.png"
-        },
-        {
           "id": "Dragon_med_helm",
           "img_path": "images/dragon/Dragon_med_helm.png"
         },
         {
-          "id": "Dragon_platebody",
-          "img_path": "images/dragon/Dragon_platebody.png"
-        },
-        {
-          "id": "Dragon_platelegs",
-          "img_path": "images/dragon/Dragon_platelegs.png"
-        },
-        {
-          "id": "Dragon_plateskirt",
-          "img_path": "images/dragon/Dragon_plateskirt.png"
-        },
-        {
-          "id": "Dragon_spear",
-          "img_path": "images/dragon/Dragon_spear.png"
+          "id": "Dragon_full_helm",
+          "img_path": "images/dragon/Dragon_full_helm.png"
         },
         {
           "id": "Dragon_sq_shield",
@@ -609,6 +569,46 @@
         {
           "id": "Dragon_warhammer",
           "img_path": "images/dragon/Dragon_warhammer.png"
+        },
+        {
+          "id": "Dragon_battleaxe",
+          "img_path": "images/dragon/Dragon_battleaxe.png"
+        },
+        {
+          "id": "Dragon_chainbody",
+          "img_path": "images/dragon/Dragon_chainbody.png"
+        },
+        {
+          "id": "Dragon_platebody",
+          "img_path": "images/dragon/Dragon_platebody.png"
+        },
+        {
+          "id": "Dragon_kiteshield",
+          "img_path": "images/dragon/Dragon_kiteshield.png"
+        },
+        {
+          "id": "Dragon_2h_sword",
+          "img_path": "images/dragon/Dragon_2h_sword.png"
+        },
+        {
+          "id": "Dragon_spear",
+          "img_path": "images/dragon/Dragon_spear.png"
+        },
+        {
+          "id": "Dragon_plateskirt",
+          "img_path": "images/dragon/Dragon_plateskirt.png"
+        },
+        {
+          "id": "Dragon_platelegs",
+          "img_path": "images/dragon/Dragon_platelegs.png"
+        },
+        {
+          "id": "Dragon_defender",
+          "img_path": "images/dragon/Dragon_defender.png"
+        },
+        {
+          "id": "Dragon_boots",
+          "img_path": "images/dragon/Dragon_boots.png"
         },
         {
           "id": "Dragonfire_shield",
