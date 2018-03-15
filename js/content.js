@@ -53,6 +53,8 @@ $(function() {
 
 });
 
+$(window).on('beforeunload', saveState);
+
 
 function createHiddenDiaryImages(data) {
 	for (var i = 0; i <= data.length - 1; i++) {
