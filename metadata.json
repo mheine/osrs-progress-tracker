@@ -1361,10 +1361,6 @@
           "img_path": "images/pets/Tzrek-jad.png"
         },
         {
-          "id": "tzrek-zuk",
-          "img_path": "images/pets/Tzrek-zuk.png"
-        },
-        {
           "id": "venenatis_spiderling",
           "img_path": "images/pets/Venenatis_spiderling.png"
         },
@@ -1375,6 +1371,10 @@
         {
           "id": "vorki",
           "img_path": "images/pets/Vorki.png"
+        },
+        {
+          "id": "pet_rock",
+          "img_path": "images/pets/Pet_rock.png"
         }
       ],
       "group_id": "all-pets",
